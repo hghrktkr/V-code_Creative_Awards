@@ -1,0 +1,75 @@
+/* -------- variables -------- */
+
+$breakpoint: 756px;
+$header-height-pc: 64px;
+$header-height-sp: 58px;
+
+/* --------------------------- */
+
+// スマホ画面用
+@mixin sp {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: $header-height-pc;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+
+    @include sp {
+        height: $header-height-sp;
+    }
+}
+
+.header-inner {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-ul {
+    display: flex;
+    gap: 8dvw;
+    list-style: none;
+
+    @include sp {
+        flex-direction: column;
+        background-color: white;
+        border: 2px;
+        border-color: gray;
+    }
+}
+
+.nav-ul li {
+    font-weight: bold;
+
+    @include sp {
+        font-weight: normal;
+    }
+}
+
+.hamburger {
+    display: none;
+
+    @include sp {
+        display: block;
+        margin-left: auto;
+    }
+}
