@@ -1,0 +1,64 @@
+[
+  {
+    "id": "001",
+    "title": "めいろゲーム",
+    "grade": "小4",
+    "author": "テスト 太郎",
+    "category": "game",
+    "award": "gold",
+    "thumbnail": "thumb.webp",
+    "images": ["img1.webp", "img2.webp"],
+    "description": "めいろをこうりゃくするワールドを作りました。スタートとゴールの仕組みが難しかったです。",
+    "ratigs": {
+        "idea": 4,
+        "completeness": 5,
+        "programming": 4,
+        "fun": 5,
+        "design": 5,
+        "worksheet": 4
+    },
+    "comment": "講評",
+    "program": "コードまたはURL",
+    "downloads": [
+            {
+                "type": "world",
+                "src": "file.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "code.mkcd"
+            }
+        ]
+    },
+    {
+    "id": "002",
+    "title": "作品名",
+    "grade": "小3",
+    "author": "テスト 次郎",
+    "category": "ワールド",
+    "award": "silver",
+    "thumbnail": "thumb.webp",
+    "images": ["img1.webp", "img2.webp"],
+    "description": "作品説明",
+    "ratigs": {
+        "idea": 5,
+        "completeness": 5,
+        "programming": 5,
+        "fun": 5,
+        "design": 5,
+        "worksheet": 5
+    },
+    "comment": "講評",
+    "program": "コードまたはURL",
+    "downloads": [
+            {
+                "type": "world",
+                "src": "file.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "code.mkcd"
+            }
+        ]
+    }
+]

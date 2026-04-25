@@ -2,26 +2,35 @@
 
 $breakpoint: 756px;
 $header-height-pc: 64px;
-$header-height-sp: 58px;
+$header-height-mobile: 58px;
+
+$z-header: 2;
+$z-hamburger: 3;
+$z-hero: 1;
+
 
 /* --------------------------- */
 
 // スマホ画面用
-@mixin sp {
+@mixin mobile {
   @media (max-width: $breakpoint) {
     @content;
   }
 }
 
+/*  ---------------------------
+    ヘッダー
+    --------------------------- */
+
 .header {
     position: fixed;
     width: 100%;
     height: $header-height-pc;
-    z-index: 1;
+    z-index: $z-header;
     backdrop-filter: blur(8px);
 
-    @include sp {
-        height: $header-height-sp;
+    @include mobile {
+        height: $header-height-mobile;
     }
 }
 
@@ -30,46 +39,212 @@ $header-height-sp: 58px;
     position: relative;
     display: flex;
     align-items: center;
+    padding: 0 16px;
 }
 
 .logo {
     text-decoration: none;
+    color: #333;
     font-size: 1.2rem;
     font-weight: bold;
+
+    &:hover {
+        opacity: 0.6;
+    }
 }
 
 .nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+
+    @include mobile {
+        position: fixed;
+        top: $header-height-mobile;
+        left: 0;
+        width: 100%;
+        background: white;
+
+        transform: translateY(-150%);
+        transition: transform 0.3s ease;
+    }
+}
+
+// モバイル画面でハンバーガーメニューを開いた時
+@media (max-width: $breakpoint) {
+    .nav.open {
+        transform: translateY(0);
+    }
 }
 
 .nav-ul {
     display: flex;
-    gap: 8dvw;
+    gap: clamp(16px, 4vw, 40px);
     list-style: none;
 
-    @include sp {
+    @include mobile {
         flex-direction: column;
-        background-color: white;
-        border: 2px;
-        border-color: gray;
+        padding: 16px;
+        gap: 16px;
     }
+
 }
 
-.nav-ul li {
-    font-weight: bold;
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    transition: 0.2s;
 
-    @include sp {
-        font-weight: normal;
+    &:hover {
+        opacity: 0.6;
     }
 }
 
 .hamburger {
+    font-size: large;
     display: none;
+    margin-left: auto;
+    width: 28px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: $z-hamburger;
+    background: none;
+    border: none;
 
-    @include sp {
+    @include mobile {
         display: block;
-        margin-left: auto;
     }
+}
+
+
+/*  ---------------------------
+    ヒーロービュー
+    --------------------------- */
+
+.hero {
+    position: relative;
+    height: 100dvh;
+
+    // 仮画像（あとで差し替え）
+    background-image: url("/images/hero-placeholder.webp");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// 暗くするオーバーレイ
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+// 中身
+.hero-inner {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: $z-hero;
+}
+
+// タイトル
+.hero-title {
+    font-size: clamp(32px, 6vw, 72px);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+// CTAボタン
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #4f46e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    }
+}
+
+/*  ---------------------------
+    グリッド
+    --------------------------- */
+
+.works-section {
+    padding: 80px 24px;
+}
+
+.work-grid {
+    display: grid;
+
+    // 自動で列調整（超重要）
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    
+    
+    & :hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+}
+
+.work-card {
+    display: block;
+    background: whitesmoke;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    max-width: 320px;   // ←これ重要
+    width: 100%;
+    margin: 0 auto;     // ←中央寄せ
+    
+    transition: 0.2s;
+}
+
+.thumbnail {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.work-info {
+    padding: 12px;
+    pointer-events: none;
+}
+
+.work-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+    pointer-events: none;
+}
+
+.work-meta {
+    font-size: 14px;
+    color: #666;
+}
+
+.work-link {
+    display: block;
+    padding: 0 12px 12px;
+    font-size: 14px;
+    color: #4f46e5;
 }

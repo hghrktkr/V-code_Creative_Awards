@@ -148,6 +148,7 @@
 {
   "id": "001",
   "title": "作品名",
+  "grade": "学年",
   "author": "作者名",
   "category": "ワールド",
   "award": "gold",
@@ -167,11 +168,11 @@
   "downloads": [
         {
             "type": "world",
-            "file": "file.mcworld"
+            "src": "file.mcworld"
         },
         {
             "type": "code",
-            "file": "code.mkcd"
+            "src": "code.mkcd"
         }
     ]
 }
