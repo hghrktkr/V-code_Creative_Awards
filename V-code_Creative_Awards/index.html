@@ -58,23 +58,34 @@
 
 
     <!-- =========================
-         Result Section
+         Concept Section
     ========================== -->
-    <section class="result-section">
+  <section class="concept-section">
 
-      <h2 class="section-title">結果発表はこちらから！</h2>
+    <h2 class="section-title">
+      V-code Creative Awardsとは？
+    </h2>
 
-      <div class="category-buttons">
-        <a href="/results?category=game" class="category-button">
-          ゲームクリエイション部門
-        </a>
+    <p class="concept-text">
+      V-code Creative Awardsは、子どもたちの創造力とプログラミング力を発揮するコンテストです。
+      アイデア・完成度・楽しさなど、さまざまな視点から作品を評価します。
+    </p>
 
-        <a href="/results?category=world" class="category-button">
-          ワールドデザイン部門
-        </a>
+    <div class="category-cards">
+
+      <div class="category-card">
+        <h3>ゲームクリエイション部門</h3>
+        <p>遊んで楽しいゲーム作品を評価します。</p>
       </div>
 
-    </section>
+      <div class="category-card">
+        <h3>ワールドデザイン部門</h3>
+        <p>世界観や建築の美しさを評価します。</p>
+      </div>
+
+    </div>
+
+  </section>
 
 
     <!-- =========================
@@ -88,20 +99,7 @@
       </div>
 
       <!-- 作品グリッド -->
-      <div class="work-grid">
-
-        <a href="/works/001" class="work-card">
-          <div class="thumbnail">
-            <img src="src/images/thumnails/maze_in_maze.webp" alt="作品サムネイル">
-          </div>
-
-          <div class="work-info">
-            <h3 class="work-title">作品名: めいろゲーム</h3>
-            <p class="work-meta">小学5年 / 山田太郎</p>
-          </div>
-        </a>
-
-      </div>
+      <div class="work-grid" id="work-grid"></div>
 
       <!-- もっと見る -->
       <div class="more-button-wrap">
@@ -120,6 +118,21 @@
   ========================== -->
   <footer class="footer">
   </footer>
+
+  <!-- =========================
+     Modal
+  ========================== -->
+  <div class="modal" id="modal">
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">×</button>
+
+      <div class="modal-body" id="modal-body">
+        <!-- JSで中身を差し込む -->
+      </div>
+    </div>
+  </div>
 
 </body>
 
