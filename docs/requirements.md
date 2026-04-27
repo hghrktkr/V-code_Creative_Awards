@@ -148,33 +148,48 @@
 {
   "id": "001",
   "title": "作品名",
-  "grade": "学年",
-  "author": "作者名",
-  "category": "ワールド",
+  "author": {
+    "name": "作者名",
+    "grade": "学年"
+  },
+  "category": "world",
   "award": "gold",
-  "thumbnail": "thumb.webp",
-  "images": ["img1.webp", "img2.webp"],
+
+  "thumbnail": "/works/001/thumb.webp",
+
+  "images": [
+    "/works/001/img1.webp",
+    "/works/001/img2.webp"
+  ],
+
   "description": "作品説明",
-  "ratigs": {
+
+  "ratings": {
     "idea": 5,
     "completeness": 5,
     "programming": 5,
     "fun": 5,
     "design": 5,
-    "worksheet": 5,
+    "worksheet": 5
   },
+
   "comment": "講評",
-  "program": "コードまたはURL",
+
+  "program": {
+    "type": "url",
+    "src": "https://..."
+  },
+
   "downloads": [
-        {
-            "type": "world",
-            "src": "file.mcworld"
-        },
-        {
-            "type": "code",
-            "src": "code.mkcd"
-        }
-    ]
+    {
+      "type": "world",
+      "src": "/works/001/file.mcworld"
+    },
+    {
+      "type": "code",
+      "src": "/works/001/code.mkcd"
+    }
+  ]
 }
 ```
 

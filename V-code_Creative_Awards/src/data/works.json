@@ -1,63 +1,93 @@
 [
-  {
-    "id": "001",
-    "title": "めいろゲーム",
-    "grade": "小4",
-    "author": "テスト 太郎",
-    "category": "game",
-    "award": "gold",
-    "thumbnail": "thumb.webp",
-    "images": ["img1.webp", "img2.webp"],
-    "description": "めいろをこうりゃくするワールドを作りました。スタートとゴールの仕組みが難しかったです。",
-    "ratigs": {
-        "idea": 4,
-        "completeness": 5,
-        "programming": 4,
-        "fun": 5,
-        "design": 5,
-        "worksheet": 4
-    },
-    "comment": "講評",
-    "program": "コードまたはURL",
-    "downloads": [
+    {
+        "id": "dummy-001",
+        "title": "迷路ゲーム",
+        "author": {
+            "name": "テスト 太郎",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "gold",
+
+        "thumbnail": "https://vcode-esia.com/creative_awards/test/works/001/thumb.webp",
+
+        "images": [
+            "https://vcode-esia.com/creative_awards/test/works/001/img-01.webp",
+            "https://vcode-esia.com/creative_awards/test/works/001/img-02.webp"
+        ],
+
+        "description": "迷路から脱出するゲームを作りました。スタートするたびに迷路の内容が変わる仕組みを作るのが難しかったです。クリアした時にアイテムが手に入るようにした点を工夫しました。",
+
+        "ratings": {
+            "idea": 5,
+            "completeness": 5,
+            "programming": 4,
+            "fun": 5,
+            "design": 4,
+            "worksheet": 4
+        },
+
+        "comment": "「春の大脱出」をテーマに、閉じ込められた部屋から脱出するゲームを作ってくれました。乱数を使ってランダムな迷路をつくる迷路生成アルゴリズムが大変よく作り込まれていました。また、事前のワークシートでしっかりとアイデアややりたいことが具体化されていたのが、この複雑なゲームを完成させることができた一番の要因だと思います。",
+
+        "program": {
+            "type": "makecode",
+            "id": "_XsJaqbC2UH0L"
+        },
+
+        "downloads": [
             {
-                "type": "world",
-                "src": "file.mcworld"
+            "type": "world",
+            "src": "https://vcode-esia.com/creative_awards/test/works/001/001-world-v01.mcworld"
             },
             {
-                "type": "code",
-                "src": "code.mkcd"
+            "type": "code",
+            "src": "https://vcode-esia.com/creative_awards/test/works/001/001-code-v01.mkcd"
             }
         ]
     },
     {
-    "id": "002",
-    "title": "作品名",
-    "grade": "小3",
-    "author": "テスト 次郎",
-    "category": "ワールド",
-    "award": "silver",
-    "thumbnail": "thumb.webp",
-    "images": ["img1.webp", "img2.webp"],
-    "description": "作品説明",
-    "ratigs": {
-        "idea": 5,
-        "completeness": 5,
-        "programming": 5,
-        "fun": 5,
-        "design": 5,
-        "worksheet": 5
-    },
-    "comment": "講評",
-    "program": "コードまたはURL",
-    "downloads": [
+        "id": "dummy-002",
+        "title": "金床避けゲーム",
+        "author": {
+            "name": "テスト 次郎",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+
+        "thumbnail": "https://vcode-esia.com/creative_awards/test/works/002/thumb.webp",
+
+        "images": [
+            "https://vcode-esia.com/creative_awards/test/works/002/img-01.webp",
+            "https://vcode-esia.com/creative_awards/test/works/002/img-02.webp"
+        ],
+
+        "description": "落ちてくる金床を避けるゲームを作りました。金床が地面に残らないように消すところを工夫しました。",
+
+        "ratings": {
+            "idea": 5,
+            "completeness": 5,
+            "programming": 4,
+            "fun": 5,
+            "design": 4,
+            "worksheet": 4
+        },
+
+        "comment": "「春の大脱出」をテーマに、閉じ込められた部屋から脱出するゲームを作ってくれました。乱数を使ってランダムな迷路をつくる迷路生成アルゴリズムが大変よく作り込まれていました。また、事前のワークシートでしっかりとアイデアややりたいことが具体化されていたのが、この複雑なゲームを完成させることができた一番の要因だと思います。",
+
+        "program": {
+            "type": "makecode",
+            "id": "_g9rR1HD630DE"
+        },
+
+        "downloads": [
             {
-                "type": "world",
-                "src": "file.mcworld"
+            "type": "world",
+            "src": "https://vcode-esia.com/creative_awards/test/works/002/002-world-v01.mcworld"
             },
             {
-                "type": "code",
-                "src": "code.mkcd"
+            "type": "code",
+            "src": "https://vcode-esia.com/creative_awards/test/works/002/002-code-v01.mkcd"
             }
         ]
     }
