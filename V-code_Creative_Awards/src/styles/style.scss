@@ -1,6 +1,7 @@
 @use "./variables";
 @use "./header";
 @use "./top";
+@use "./detail";
 
 // スマホ画面用
 @mixin mobile {

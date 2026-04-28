@@ -1,5 +1,6 @@
 import "./styles/style.scss";
 import { renderWorks } from "./scripts/renderWorks";
+import { renderDetail } from "./scripts/detail";
 
 // ハンバーガーメニュー制御
 const hamburger = document.getElementById("hamburger");
@@ -35,3 +36,8 @@ if (hamburger && nav) {
 
 // カード描画
 renderWorks();
+
+// 詳細画面
+if (location.pathname.includes("detail.html")) {
+  renderDetail();
+}

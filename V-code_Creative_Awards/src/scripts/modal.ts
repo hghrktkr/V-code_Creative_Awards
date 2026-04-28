@@ -54,7 +54,7 @@ function renderModal(work: any, container: HTMLElement) {
         </div>
     </div>
 
-    <button class="detail-button" onclick="location.href='/works.html?id=${work.id}'">
+    <button class="detail-button" onclick="location.href='/detail.html?id=${work.id}'">
       詳細を見る →
     </button>
   `;
@@ -71,7 +71,7 @@ function closeModal(modal: HTMLElement) {
 }
 
 // レーティング生成
-function renderRating(ratings: any): string {
+export function renderRating(ratings: any): string {
   const labels: Record<string, string> = {
     idea: "アイデア",
     completeness: "完成度",
