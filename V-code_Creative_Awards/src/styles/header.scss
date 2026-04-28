@@ -1,0 +1,108 @@
+@use "./variables";
+
+// スマホ画面用
+@mixin mobile {
+  @media (max-width: variables.$breakpoint) {
+    @content;
+  }
+}
+
+/*  ---------------------------
+    ヘッダー
+    --------------------------- */
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: variables.$header-height-pc;
+    z-index: variables.$z-header;
+    backdrop-filter: blur(8px);
+
+    @include mobile {
+        height: variables.$header-height-mobile;
+    }
+
+    &-inner {
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+    }
+
+    .logo {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include mobile {
+            position: fixed;
+            top: variables.$header-height-mobile;
+            left: 0;
+            width: 100%;
+            background: white;
+
+            transform: translateY(-150%);
+            transition: transform 0.3s ease;
+        }
+
+        &-ul {
+            display: flex;
+            gap: clamp(16px, 4vw, 40px);
+            list-style: none;
+
+            @include mobile {
+                flex-direction: column;
+                padding: 16px;
+                gap: 16px;
+            }
+
+        }
+        
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 12px;
+            transition: 0.2s;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .hamburger {
+        font-size: large;
+        display: none;
+        margin-left: auto;
+        width: 28px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+        z-index: variables.$z-hamburger;
+        background: none;
+        border: none;
+    
+        @include mobile {
+            display: block;
+        }
+    }
+
+    // モバイル画面でハンバーガーメニューを開いた時
+    @media (max-width: variables.$breakpoint) {
+        .nav.open {
+            transform: translateY(0);
+        }
+    }
+}
