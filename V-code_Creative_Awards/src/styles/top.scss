@@ -72,6 +72,7 @@
 .concept-section {
     padding: 64px 24px;
     text-align: center;
+    font-size: clamp(18px, 1.1vw, 22px);
 
     .concept-text {
         max-width: 800px;
@@ -113,6 +114,7 @@
 
 .works-section {
     padding: 80px 24px;
+    font-size: clamp(18px, 1.1vw, 22px);
 
     .section-header {
         h2 {
@@ -168,13 +170,11 @@
                 pointer-events: none;
                 
                 .work-title {
-                    font-size: 16px;
                     margin-bottom: 4px;
                     pointer-events: none;
                 }
             
                 .work-meta {
-                    font-size: 14px;
                     color: #666;
                 }
             }
@@ -235,6 +235,7 @@
     inset: 0;
     display: none;
     z-index: 2000;
+    font-size: clamp(18px, 1.1vw, 22px);
     
     &.open {
         display: block;

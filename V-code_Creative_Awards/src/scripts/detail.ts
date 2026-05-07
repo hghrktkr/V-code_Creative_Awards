@@ -16,10 +16,18 @@ export async function renderDetail() {
   if (!work) return;
 
   container.innerHTML = createDetailHTML(work);
+
+  initBackButton();
+  initCopyButton();
 }
 
 function createDetailHTML(work: any): string {
   return `
+    <section class="detail-header-nav">
+      <button class="back-button" id="back-button">
+        ← 戻る
+      </button>
+    </section>
     <section class="detail-top">
 
       <!-- 左：画像 -->
@@ -47,7 +55,7 @@ function createDetailHTML(work: any): string {
 
     <!-- 講評 -->
     <div class="detail-comment">
-        <h2>審査員からのコメント</h1>
+        <h2>審査員からのコメント</h2>
         <p>${work.comment}</p>
     </div>
 
@@ -57,9 +65,20 @@ function createDetailHTML(work: any): string {
     <!-- プログラム -->
     ${renderProgram(work.program)}
 
+    <!-- 共有 -->
+    ${renderShareButtons(work)}
+
     <!-- ダウンロード -->
     ${renderDownloads(work.downloads)}
   `;
+}
+
+function initBackButton() {
+  const backButton = document.getElementById("back-button");
+
+  backButton?.addEventListener("click", () => {
+    history.back();
+  });
 }
 
 function renderImage(images: string[]): string {
@@ -95,6 +114,98 @@ function renderProgram(program: any): string {
       </div>
     </section>
   `;
+}
+
+function renderShareButtons(work: any): string {
+  const shareUrl = encodeURIComponent(location.href);
+  const shareText = encodeURIComponent(
+    `「${work.title}」をチェック！ | V-code Creative Awards`
+  );
+
+  return `
+    <section class="detail-share">
+      <h2>この作品をシェア</h2>
+
+      <div class="share-buttons">
+
+        <!-- X -->
+        <a
+          class="share-button x"
+          href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <!-- LINE -->
+        <a
+          class="share-button line"
+          href="https://social-plugins.line.me/lineit/share?url=${shareUrl}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-line"></i>
+        </a>
+
+        <!-- Copy -->
+        <button
+          class="share-button copy"
+          id="copy-button"
+          data-url="${location.href}"
+        >
+          <i class="fa-solid fa-link"></i>
+
+          <!-- トースト -->
+          <span class="copy-toast">
+            コピーしました！
+          </span>
+        </button>
+
+      </div>
+    </section>
+  `;
+}
+
+function initCopyButton() {
+  const button = document.getElementById("copy-button");
+  if (!button) return;
+
+  button.addEventListener("click", async () => {
+    const url = button.getAttribute("data-url");
+    if (!url) return;
+
+    try {
+      await navigator.clipboard.writeText(url);
+
+      button.classList.add("copied");
+
+      showToast("URLをコピーしました！");
+
+      setTimeout(() => {
+        button.classList.remove("copied");
+      }, 1200);
+
+    } catch {
+      showToast("コピーに失敗しました");
+    }
+  });
+}
+
+function showToast(message: string) {
+  const button = document.getElementById("copy-button");
+  if (!button) return;
+
+  const toast = button.querySelector(".copy-toast");
+  if (!toast) return;
+
+  toast.textContent = message;
+
+  toast.classList.add("show");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 2000);
 }
 
 function renderDownloads(downloads: any[]): string {
