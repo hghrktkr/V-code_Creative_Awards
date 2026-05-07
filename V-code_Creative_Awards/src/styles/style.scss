@@ -2,6 +2,7 @@
 @use "./header";
 @use "./top";
 @use "./detail";
+@use "./works";
 
 // スマホ画面用
 @mixin mobile {

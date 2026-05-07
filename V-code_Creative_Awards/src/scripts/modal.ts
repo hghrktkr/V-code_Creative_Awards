@@ -1,36 +1,51 @@
 let worksData: any[] = [];
 
-export function initModal(works: any[]) {
-  worksData = works;
+type ModalOptions = {
+  works: any[];
+  containerSelector: string;
+  itemSelector: string;
+};
 
-  const grid = document.getElementById("work-grid");
+export function initModal(options: ModalOptions) {
+  worksData = options.works;
+
+  const container = document.querySelector(options.containerSelector);
+
   const modal = document.getElementById("modal")!;
   const overlay = document.getElementById("modal-overlay")!;
   const closeBtn = document.getElementById("modal-close")!;
   const body = document.getElementById("modal-body")!;
 
-  // カードクリック
-  grid?.addEventListener("click", (e) => {
+  // 一覧クリック
+  container?.addEventListener("click", (e) => {
     const target = e.target as HTMLElement;
-    const card = target.closest(".work-card") as HTMLElement;
-    if (!card) return;
+
+    const item = target.closest(options.itemSelector) as HTMLElement;
+
+    if (!item) return;
 
     e.preventDefault();
 
-    const id = card.dataset.id!;
+    const id = item.dataset.id!;
+
     const work = worksData.find(w => w.id === id);
+
     if (!work) return;
 
     renderModal(work, body);
+
     openModal(modal);
   });
 
   // 閉じる
   overlay.addEventListener("click", () => closeModal(modal));
+
   closeBtn.addEventListener("click", () => closeModal(modal));
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeModal(modal);
+    if (e.key === "Escape") {
+      closeModal(modal);
+    }
   });
 }
 

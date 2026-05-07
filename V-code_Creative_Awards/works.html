@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>みんなの作品 | V-code Creative Awards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <!-- =========================
+       Header
+  ========================== -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="/">V-CODE CREATIVE AWARDS</a>
+
+      <!-- ナビゲーションメニュー -->
+      <nav class="nav" id="nav">
+        <ul class="nav-ul">
+          <li><a href="/results">受賞作品</a></li>
+          <li><a href="/works">みんなの作品</a></li>
+        </ul>
+      </nav>
+
+      <!-- ハンバーガー -->
+      <button class="hamburger" id="hamburger">
+        ☰
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       Main
+  ========================== -->
+  <main class="works-page">
+
+    <!-- ページタイトル -->
+    <section class="works-hero">
+
+      <h1 class="works-title">
+        みんなの作品
+      </h1>
+
+      <p class="works-description">
+        V-code Creative Awards に応募された作品一覧です。
+      </p>
+
+    </section>
+
+
+    <!-- ツールバー -->
+    <section class="works-toolbar">
+
+      <!-- 検索 -->
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="作品名・作者名で検索"
+      >
+
+      <!-- 部門 -->
+      <select id="category-filter" class="toolbar-select">
+        <option value="">すべての部門</option>
+        <option value="game">ゲーム</option>
+        <option value="world">ワールド</option>
+      </select>
+
+      <!-- 並び替え -->
+      <select id="sort-select" class="toolbar-select">
+        <option value="new">新しい順</option>
+        <option value="title">作品名順</option>
+        <option value="grade">学年順</option>
+      </select>
+
+    </section>
+
+
+    <!-- 件数 -->
+    <div class="works-count" id="works-count">
+      0件の作品
+    </div>
+
+
+    <!-- 一覧 -->
+    <section class="works-list-section">
+
+      <div class="works-list" id="works-list">
+        <!-- TSで描画 -->
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer class="footer">
+  </footer>
+
+
+  <!-- =========================
+     Modal
+  ========================== -->
+  <div class="modal" id="modal">
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">×</button>
+
+      <div class="modal-body" id="modal-body">
+        <!-- JSで中身を差し込む -->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script type="module" src="/src/main.ts"></script>
+
+</html>

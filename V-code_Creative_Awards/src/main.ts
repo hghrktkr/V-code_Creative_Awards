@@ -1,5 +1,6 @@
 import "./styles/style.scss";
 import { renderWorks } from "./scripts/renderWorks";
+import { renderWorksPage } from "./scripts/works";
 import { renderDetail } from "./scripts/detail";
 
 // ハンバーガーメニュー制御
@@ -36,6 +37,9 @@ if (hamburger && nav) {
 
 // カード描画
 renderWorks();
+
+// worksページ描画
+renderWorksPage();
 
 // 詳細画面
 if (location.pathname.includes("detail.html")) {

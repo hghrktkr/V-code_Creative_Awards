@@ -20,7 +20,11 @@ export async function renderWorks() {
   const works: Work[] = await res.json();
 
   // モーダル
-  initModal(works);
+  initModal({
+    works,
+    containerSelector: "#work-grid",
+    itemSelector: ".work-card"
+  });
 
   // 投稿作品数が6件以上ある場合はランダムに6件抽出
   const displayWorks = works.length > 6 ? pickRandomWorks(works, 6) : works;
