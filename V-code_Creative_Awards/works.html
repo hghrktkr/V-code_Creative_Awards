@@ -52,31 +52,34 @@
 
 
     <!-- ツールバー -->
-    <section class="works-toolbar">
+    <div class="works-toolbar">
 
-      <!-- 検索 -->
-      <input
-        type="text"
-        id="search-input"
-        class="search-input"
-        placeholder="作品名・作者名で検索"
-      >
+        <input
+            class="search-input"
+            id="search-input"
+            type="text"
+            placeholder="作品名・作者名で検索">
 
-      <!-- 部門 -->
-      <select id="category-filter" class="toolbar-select">
-        <option value="">すべての部門</option>
-        <option value="game">ゲーム</option>
-        <option value="world">ワールド</option>
-      </select>
+        <select class="toolbar-select" id="category-filter">
+            <option value="all">全部門</option>
+            <option value="game">ゲーム</option>
+            <option value="world">ワールド</option>
+        </select>
 
-      <!-- 並び替え -->
-      <select id="sort-select" class="toolbar-select">
-        <option value="new">新しい順</option>
-        <option value="title">作品名順</option>
-        <option value="grade">学年順</option>
-      </select>
+        <select class="toolbar-select" id="award-filter">
+            <option value="all">全作品</option>
+            <option value="gold">金賞</option>
+            <option value="silver">銀賞</option>
+            <option value="bronze">銅賞</option>
+        </select>
 
-    </section>
+        <select class="toolbar-select" id="sort-select">
+            <option value="default">おすすめ順</option>
+            <option value="title">タイトル順</option>
+            <option value="grade">学年順</option>
+        </select>
+
+    </div>
 
 
     <!-- 件数 -->

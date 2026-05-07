@@ -23,6 +23,7 @@ export type Work = {
 --------------------------- */
 
 let works: Work[] = [];
+let filteredWorks: Work[] = [];
 
 /* --------------------------
    初期化
@@ -39,11 +40,15 @@ export async function renderWorksPage() {
 
   works = await res.json();
 
-  // 件数表示
-  renderCount(works.length);
+  // 初期表示
+  filteredWorks = [...works];
 
-  // 一覧描画
-  renderList(works);
+  renderCount(filteredWorks.length);
+
+  renderList(filteredWorks);
+
+  // 検索・ソート初期化
+  initToolbar();
 
   // モーダル
   initModal({
@@ -51,6 +56,173 @@ export async function renderWorksPage() {
     containerSelector: "#works-list",
     itemSelector: ".work-item"
   });
+}
+
+/* --------------------------
+   Toolbar
+--------------------------- */
+
+function initToolbar() {
+
+  const searchInput =
+    document.getElementById("search-input");
+
+  const categoryFilter =
+    document.getElementById("category-filter");
+
+  const awardFilter =
+    document.getElementById("award-filter");
+
+  const sortSelect =
+    document.getElementById("sort-select");
+
+  searchInput?.addEventListener(
+    "input",
+    updateWorks
+  );
+
+  categoryFilter?.addEventListener(
+    "change",
+    updateWorks
+  );
+
+  awardFilter?.addEventListener(
+    "change",
+    updateWorks
+  );
+
+  sortSelect?.addEventListener(
+    "change",
+    updateWorks
+  );
+}
+
+/* --------------------------
+   検索・フィルター・ソート
+--------------------------- */
+
+function updateWorks() {
+
+  const search =
+    (
+      document.getElementById(
+        "search-input"
+      ) as HTMLInputElement
+    ).value.toLowerCase();
+
+  const category =
+    (
+      document.getElementById(
+        "category-filter"
+      ) as HTMLSelectElement
+    ).value;
+
+  const award =
+    (
+      document.getElementById(
+        "award-filter"
+      ) as HTMLSelectElement
+    ).value;
+
+  const sort =
+    (
+      document.getElementById(
+        "sort-select"
+      ) as HTMLSelectElement
+    ).value;
+
+  let result = [...works];
+
+  /* --------------------------
+     検索
+  --------------------------- */
+
+  if (search) {
+
+    result = result.filter(work => {
+
+      return (
+        work.title
+          .toLowerCase()
+          .includes(search)
+
+        ||
+
+        work.author.name
+          .toLowerCase()
+          .includes(search)
+      );
+    });
+  }
+
+  /* --------------------------
+     カテゴリ
+  --------------------------- */
+
+  if (category !== "all") {
+
+    result = result.filter(work =>
+      work.category === category
+    );
+  }
+
+  /* --------------------------
+     受賞
+  --------------------------- */
+
+  if (award !== "all") {
+
+    result = result.filter(work =>
+      work.award === award
+    );
+  }
+
+  /* --------------------------
+     ソート
+  --------------------------- */
+
+  switch (sort) {
+
+    case "title":
+
+      result.sort((a, b) =>
+        a.title.localeCompare(b.title, "ja")
+      );
+
+      break;
+
+    case "grade":
+
+      result.sort((a, b) =>
+        a.author.grade.localeCompare(
+          b.author.grade,
+          "ja"
+        )
+      );
+
+      break;
+
+    case "award":
+
+      const order: Record<string, number> = {
+        gold: 0,
+        silver: 1,
+        bronze: 2,
+        none: 3
+      };
+
+      result.sort((a, b) =>
+        order[a.award] - order[b.award]
+      );
+
+      break;
+  }
+
+  filteredWorks = result;
+
+  renderCount(filteredWorks.length);
+
+  renderList(filteredWorks);
 }
 
 /* --------------------------
@@ -82,21 +254,21 @@ function createWorkRow(work: Work): HTMLElement {
 
   const button = document.createElement("button");
 
-  // modal.ts 用に work-item を付与
-  button.className = `works-list work-item award-${work.award}`;
+  button.className =
+    `works-list work-item award-${work.award}`;
 
   button.dataset.id = work.id;
 
   button.innerHTML = `
 
     <div class="work-item-title">
-    ${work.title}
+      ${work.title}
     </div>
 
     <div class="work-item-meta">
-    ${work.author.grade}
-    /
-    ${work.author.name}
+      ${work.author.grade}
+      /
+      ${work.author.name}
     </div>
 
     <div class="work-item-side">
@@ -124,11 +296,13 @@ function createWorkRow(work: Work): HTMLElement {
 
 function renderCount(count: number) {
 
-  const countEl = document.getElementById("works-count");
+  const countEl =
+    document.getElementById("works-count");
 
   if (!countEl) return;
 
-  countEl.textContent = `${count}件の作品`;
+  countEl.textContent =
+    `${count}件の作品`;
 }
 
 /* --------------------------
