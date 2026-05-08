@@ -69,7 +69,7 @@ function renderModal(work: any, container: HTMLElement) {
         </div>
     </div>
 
-    <button class="detail-button" onclick="location.href='/detail.html?id=${work.id}'">
+    <button class="detail-button" onclick="location.href='./detail.html?id=${work.id}'">
       詳細を見る →
     </button>
   `;

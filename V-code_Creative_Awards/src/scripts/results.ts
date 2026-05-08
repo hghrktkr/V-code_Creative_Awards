@@ -192,7 +192,7 @@ function renderGold() {
         class="gold-detail-button"
         onclick="
           location.href=
-          '/detail.html?id=${gold.id}'
+          './detail.html?id=${gold.id}'
         "
       >
         詳細を見る
@@ -249,7 +249,7 @@ function renderOtherAwards() {
         class="award-detail-button"
         onclick="
           location.href=
-          '/detail.html?id=${work.id}'
+          './detail.html?id=${work.id}'
         "
       >
         詳細を見る
