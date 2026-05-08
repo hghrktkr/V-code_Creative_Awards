@@ -290,19 +290,3 @@ function wait(ms: number) {
   });
 
 }
-
-function getAwardIcon(award: string) {
-
-  switch (award) {
-
-    case "silver":
-      return "🥈";
-
-    case "bronze":
-      return "🥉";
-
-    default:
-      return "🏅";
-  }
-
-}
