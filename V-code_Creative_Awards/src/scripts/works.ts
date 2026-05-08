@@ -36,7 +36,7 @@ export async function renderWorksPage() {
   if (!list) return;
 
   // JSON取得
-  const res = await fetch("/src/data/works.json");
+  const res = await fetch("data/works.json");
 
   works = await res.json();
 

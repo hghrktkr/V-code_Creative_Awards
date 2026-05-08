@@ -22,7 +22,7 @@ let currentCategory = "";
 
 export async function renderResultsPage() {
 
-  const res = await fetch("/src/data/works.json");
+  const res = await fetch("data/works.json");
 
   works = await res.json();
 

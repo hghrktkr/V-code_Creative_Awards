@@ -16,7 +16,7 @@ export async function renderWorks() {
   const grid = document.getElementById("work-grid");
   if (!grid) return;
 
-  const res = await fetch("/src/data/works.json");
+  const res = await fetch("data/works.json");
   const works: Work[] = await res.json();
 
   // モーダル

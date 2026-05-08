@@ -9,7 +9,7 @@ export async function renderDetail() {
   const params = new URLSearchParams(location.search);
   const id = params.get("id");
 
-  const res = await fetch("/src/data/works.json");
+  const res = await fetch("data/works.json");
   const works: Work[] = await res.json();
 
   const work = works.find(w => w.id === id);
