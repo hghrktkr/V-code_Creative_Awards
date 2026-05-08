@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>みんなの作品 | V-code Creative Awards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" crossorigin src="/V-code_Creative_Awards/assets/main-xJkwDBA5.js"></script>
+  <link rel="stylesheet" crossorigin href="/V-code_Creative_Awards/assets/main-B8wVAEPd.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       Header
+  ========================== -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="/">V-CODE CREATIVE AWARDS</a>
+
+      <!-- ナビゲーションメニュー -->
+      <nav class="nav" id="nav">
+        <ul class="nav-ul">
+          <li><a href="/results">受賞作品</a></li>
+          <li><a href="/works">みんなの作品</a></li>
+        </ul>
+      </nav>
+
+      <!-- ハンバーガー -->
+      <button class="hamburger" id="hamburger">
+        ☰
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       Main
+  ========================== -->
+  <main class="works-page">
+
+    <!-- ページタイトル -->
+    <section class="works-hero">
+
+      <h1 class="works-title">
+        みんなの作品
+      </h1>
+
+      <p class="works-description">
+        V-code Creative Awards に応募された作品一覧です。
+      </p>
+
+    </section>
+
+
+    <!-- ツールバー -->
+    <div class="works-toolbar">
+
+        <input
+            class="search-input"
+            id="search-input"
+            type="text"
+            placeholder="作品名・作者名で検索">
+
+        <select class="toolbar-select" id="category-filter">
+            <option value="all">全部門</option>
+            <option value="game">ゲーム</option>
+            <option value="world">ワールド</option>
+        </select>
+
+        <select class="toolbar-select" id="award-filter">
+            <option value="all">全作品</option>
+            <option value="gold">金賞</option>
+            <option value="silver">銀賞</option>
+            <option value="bronze">銅賞</option>
+        </select>
+
+        <select class="toolbar-select" id="sort-select">
+            <option value="default">おすすめ順</option>
+            <option value="title">タイトル順</option>
+            <option value="grade">学年順</option>
+        </select>
+
+    </div>
+
+
+    <!-- 件数 -->
+    <div class="works-count" id="works-count">
+      0件の作品
+    </div>
+
+
+    <!-- 一覧 -->
+    <section class="works-list-section">
+
+      <div class="works-list" id="works-list">
+        <!-- TSで描画 -->
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer class="footer">
+  </footer>
+
+
+  <!-- =========================
+     Modal
+  ========================== -->
+  <div class="modal" id="modal">
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">×</button>
+
+      <div class="modal-body" id="modal-body">
+        <!-- JSで中身を差し込む -->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
