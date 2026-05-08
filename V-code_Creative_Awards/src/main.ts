@@ -2,6 +2,7 @@ import "./styles/style.scss";
 import { renderWorks } from "./scripts/renderWorks";
 import { renderWorksPage } from "./scripts/works";
 import { renderDetail } from "./scripts/detail";
+import { renderResultsPage } from "./scripts/results";
 
 // ハンバーガーメニュー制御
 const hamburger = document.getElementById("hamburger");
@@ -40,6 +41,9 @@ renderWorks();
 
 // worksページ描画
 renderWorksPage();
+
+// resultsページ描画
+await renderResultsPage();
 
 // 詳細画面
 if (location.pathname.includes("detail.html")) {
