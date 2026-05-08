@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <button class="detail-button" onclick="location.href='/detail.html?id=${e.id}'">
+    <button class="detail-button" onclick="location.href='./detail.html?id=${e.id}'">
       詳細を見る →
     </button>
   `}function r(e){e.classList.add(`open`),document.body.style.overflow=`hidden`}function i(e){e.classList.remove(`open`),document.body.style.overflow=``}function a(e){let t={idea:`アイデア`,completeness:`完成度`,programming:`プログラミング`,fun:`楽しさ`,design:`デザイン`,worksheet:`ワークシート`};return Object.entries(e).map(([e,n])=>{let r=o(n);return`
@@ -217,7 +217,7 @@
         class="gold-detail-button"
         onclick="
           location.href=
-          '/detail.html?id=${t.id}'
+          './detail.html?id=${t.id}'
         "
       >
         詳細を見る
@@ -252,7 +252,7 @@
         class="award-detail-button"
         onclick="
           location.href=
-          '/detail.html?id=${e.id}'
+          './detail.html?id=${e.id}'
         "
       >
         詳細を見る
