@@ -1,93 +1,253 @@
 [
     {
-        "id": "dummy-001",
-        "title": "迷路ゲーム",
+        "id": "ohashi-1",
+        "title": "モンスターバトルゲーム",
         "author": {
-            "name": "テスト 太郎",
-            "grade": "小5"
+            "name": "T",
+            "grade": "小3"
         },
         "category": "game",
-        "award": "gold",
-
-        "thumbnail": "https://vcode-esia.com/creative_awards/test/works/001/thumb.webp",
-
-        "images": [
-            "https://vcode-esia.com/creative_awards/test/works/001/img-01.webp",
-            "https://vcode-esia.com/creative_awards/test/works/001/img-02.webp"
-        ],
-
-        "description": "迷路から脱出するゲームを作りました。スタートするたびに迷路の内容が変わる仕組みを作るのが難しかったです。クリアした時にアイテムが手に入るようにした点を工夫しました。",
-
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
         "ratings": {
-            "idea": 5,
-            "completeness": 5,
-            "programming": 4,
-            "fun": 5,
-            "design": 4,
-            "worksheet": 4
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 3
         },
-
-        "comment": "「春の大脱出」をテーマに、閉じ込められた部屋から脱出するゲームを作ってくれました。乱数を使ってランダムな迷路をつくる迷路生成アルゴリズムが大変よく作り込まれていました。また、事前のワークシートでしっかりとアイデアややりたいことが具体化されていたのが、この複雑なゲームを完成させることができた一番の要因だと思います。",
-
+        "comment": "バトルの前に必要なアイテムが用意されており、とても戦いやすかったです。倒すたびに装備が手に入るのも良いと思います。バトルステージに入ると出られなくなる仕組みも面白いですね。スポーンした時点で、すでにモンスターが出ていたので自然スポーンを制御するのと、バトル開始時（プログラミング実行時）にサバイバルモードに切替わるようにすると良いですよ。あとは、モンスターを倒すと次のモンスターが出てくるようにして、クリアできるようにプログラムを見直してみましょう。よく頑張りました！",
         "program": {
             "type": "makecode",
-            "id": "_XsJaqbC2UH0L"
+            "id": "_4bsF632vxht8"
         },
-
         "downloads": [
             {
-            "type": "world",
-            "src": "https://vcode-esia.com/creative_awards/test/works/001/001-world-v01.mcworld"
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-1/ohashi-1.mcworld"
             },
             {
-            "type": "code",
-            "src": "https://vcode-esia.com/creative_awards/test/works/001/001-code-v01.mkcd"
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-1/ohashi-1.mkcd"
             }
         ]
     },
     {
-        "id": "dummy-002",
-        "title": "金床避けゲーム",
+        "id": "ohashi-2",
+        "title": "勇者の魔王討伐ワールド",
         "author": {
-            "name": "テスト 次郎",
-            "grade": "小4"
+            "name": "TR",
+            "grade": "小5"
         },
-        "category": "game",
-        "award": "silver",
-
-        "thumbnail": "https://vcode-esia.com/creative_awards/test/works/002/thumb.webp",
-
-        "images": [
-            "https://vcode-esia.com/creative_awards/test/works/002/img-01.webp",
-            "https://vcode-esia.com/creative_awards/test/works/002/img-02.webp"
-        ],
-
-        "description": "落ちてくる金床を避けるゲームを作りました。金床が地面に残らないように消すところを工夫しました。",
-
+        "category": "world",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
         "ratings": {
             "idea": 4,
             "completeness": 4,
-            "programming": 5,
-            "fun": 5,
+            "programming": 3,
+            "fun": 3,
             "design": 3,
             "worksheet": 4
         },
-
-        "comment": "金床をランダムな位置に出現させるという複雑な関数を作ることができています。また、避けられた回数を記録として表示できているのも素晴らしいです。あとは、ステージの見た目等についてもう少し作り込めるともっと楽しいゲームになりそうです。",
-
+        "comment": "最初の演出が面白いですね。勇者が復活してから魔王を倒すまでのストーリーが分かるようにできていました。荒れた村の雰囲気やちょっとした謎解きも良い感じです。プレイヤーがどの順番でプログラムを実行すれば良いか分かるようにするか、自動的に実行されるように工夫できるともっと良い作品になると思います。よく頑張りました！",
         "program": {
             "type": "makecode",
-            "id": "_g9rR1HD630DE"
+            "id": "_1tvcPX8jbDJj"
         },
-
         "downloads": [
             {
-            "type": "world",
-            "src": "https://vcode-esia.com/creative_awards/test/works/002/002-world-v01.mcworld"
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-2/ohashi-2.mcworld"
             },
             {
-            "type": "code",
-            "src": "https://vcode-esia.com/creative_awards/test/works/002/002-code-v01.mkcd"
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-2/ohashi-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-3",
+        "title": "消える床のアクションゲーム",
+        "author": {
+            "name": "TH",
+            "grade": "中1"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "プレイヤーのことを良く考えてコースが作られていますね。程良い難易度に調整されており、ランダムに床が消えていくプログラムはよくできていました。ガラス張りのため、次のコースやクリア演出が見えるようになっていたので、使用するブロックを工夫すると、もっとワクワクするゲームになると思います！",
+        "program": {
+            "type": "makecode",
+            "id": "_HDDJuK1CVDwE"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-3/ohashi-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-3/ohashi-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-4",
+        "title": "謎解き迷路ワールド",
+        "author": {
+            "name": "じこくもん",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "前半の謎解きや迷路が作りこまれていて、ゲームとしては面白かったです。それぞれの場所がどんな場所なのかが分かるように、使うブロックを工夫したり、NPCを置いて説明を加えたりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_gxDK0zHcPeAs"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-4/ohashi-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-4/ohashi-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-5",
+        "title": "仕掛けのある家づくりゲーム",
+        "author": {
+            "name": "EdTy",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "面白い外観の家が出来ていますね。仕掛け作りが途中で終わっていたことが惜しいですね。仕様書をもっと作りこんで、プログラミングや仕掛けが完成できれば、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_86d9yzY1oU8K"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-5/ohashi-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-5/ohashi-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-6",
+        "title": "マイクラ謎解きゲーム",
+        "author": {
+            "name": "HK",
+            "grade": "中1"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 5,
+            "worksheet": 4
+        },
+        "comment": "プログラミングでの仕掛けだけでなく、マイクラのギミックも使って面白いコースが出来ていました。特に、ミスリードを上手く使った謎解きはナイスアイデアです！リスポーン位置の範囲設定の問題でコース外に出ることがありました。そこを除けばプレイヤー視点の作品としてはバッチリです！",
+        "program": {
+            "type": "makecode",
+            "id": "_fX3epaYKmaM0"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-6/ohashi-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-6/ohashi-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-7",
+        "title": "地下水族館ワールド",
+        "author": {
+            "name": "ゴリラ",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 2
+        },
+        "comment": "地上の風景とは全く異なる雰囲気の地下空間を作ることが出来ていましたね。プログラミングを用いて、地下の水族館を効率良く作り上げていったことが分かります。仕様書をもう少しじっくり作りこんで、NPCに説明させると、もっと楽しめる世界にできると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_0fzWwL3Jgdot"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-7/ohashi-7.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-7/ohashi-7.mkcd"
             }
         ]
     }
