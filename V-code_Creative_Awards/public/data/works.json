@@ -1,14 +1,14 @@
 [
     {
         "id": "ohashi-1",
-        "title": "モンスターバトルゲーム",
+        "title": "いっぱつしょうぶ",
         "author": {
             "name": "T",
             "grade": "小3"
         },
         "category": "game",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-1-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -37,14 +37,14 @@
     },
     {
         "id": "ohashi-2",
-        "title": "勇者の魔王討伐ワールド",
+        "title": "きせきのふっかつと最強のま王",
         "author": {
             "name": "TR",
             "grade": "小5"
         },
         "category": "world",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-2-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -73,14 +73,14 @@
     },
     {
         "id": "ohashi-3",
-        "title": "消える床のアクションゲーム",
+        "title": "アスレチックゲーム",
         "author": {
             "name": "TH",
             "grade": "中1"
         },
         "category": "game",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-3-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -109,14 +109,14 @@
     },
     {
         "id": "ohashi-4",
-        "title": "謎解き迷路ワールド",
+        "title": "じこくもん",
         "author": {
             "name": "じこくもん",
             "grade": "小3"
         },
         "category": "world",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-4-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -145,14 +145,14 @@
     },
     {
         "id": "ohashi-5",
-        "title": "仕掛けのある家づくりゲーム",
+        "title": "家？",
         "author": {
             "name": "EdTy",
             "grade": "小6"
         },
         "category": "game",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-5-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -181,14 +181,14 @@
     },
     {
         "id": "ohashi-6",
-        "title": "マイクラ謎解きゲーム",
+        "title": "謎を解いて下さい。",
         "author": {
             "name": "HK",
             "grade": "中1"
         },
         "category": "game",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-6-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -217,14 +217,14 @@
     },
     {
         "id": "ohashi-7",
-        "title": "地下水族館ワールド",
+        "title": "いけゆめのワールドへ",
         "author": {
             "name": "ゴリラ",
             "grade": "小5"
         },
         "category": "world",
         "award": "none",
-        "thumbnail": "",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-7-thumbnail.webp",
         "images": [],
         "description": "",
         "ratings": {
@@ -248,6 +248,3094 @@
             {
                 "type": "code",
                 "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-7/ohashi-7.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-8",
+        "title": "山のワールド",
+        "author": {
+            "name": "土",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-8-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 2,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "進むべき道順が分かるように工夫されており、何をすれば良いのか所々案内してくれている部分が良かったです。エージェントと協力しながらプログラミングを使って進めさせるという発想が面白かったです！スタート地点で海中に放り出されていたのでスポーン地点の修正と、何のためにどこに向かっているのかが分かるように説明を加えると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_MfYMX9Ed8Xqf"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-8/ohashi-8.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-8/ohashi-8.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-9",
+        "title": "タコゲーム",
+        "author": {
+            "name": "アイスボックス",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-9-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "ボスとの戦いが大変でしたが、やり応えのあるゲームが出来ていましたね！クリア後の演出がとてもユニークで良かったです。岩盤ブロックを置く判定座標と、リスポーン位置の設計ミスで、閉じ込められたり、ボスに再挑戦できなくなったりがありましたので、座標やゲームオーバーになるパターンを整理して修正すると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_gyX2haMv3XXh"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-9/ohashi-9.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-9/ohashi-9.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-10",
+        "title": "森の中のいっけんや",
+        "author": {
+            "name": "oury",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-10-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 3,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "テーマに沿った自然あふれるワールドと仕掛けを作ることが出来ています。秘密の部屋をNPCのセリフで誘導したり、文章で設定を演出したりと細かいところまでこだわりが見られました。秘密の通路の出口が開いた状態だったのでその修正と、権限ブロックを地下に配置すると作品の見た目が良くなりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_L1qfFVHVHUvh"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-10/ohashi-10.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-10/ohashi-10.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-11",
+        "title": "ポピー畑",
+        "author": {
+            "name": "いっちー",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-11-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "仕様書に沿って素敵なポピー畑を完成させることが出来ています。剣が折れるほどゾンビがいましたが、その先の花畑で写真撮影を楽しめるように工夫されていましたね。ワールドに入った時点でクリエイティブとなっていたので、空を飛べないようにプログラミングで制御することと、行動できる範囲を決めてあげると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_8hdR1v8ra62L"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-11/ohashi-11.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-11/ohashi-11.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-12",
+        "title": "ゾンビとスケールトンをたおそう",
+        "author": {
+            "name": "ミツモト",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-12-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "ふしぎなせかいが広がっていましたね。いろいろなことを試してみたというのが伝わってきます。何がテーマになっていて、どんなものを見せたいのか、もっと仕様書と向き合って考えていくと、より良い作品にできますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_UDpAiDe12JFH"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-12/ohashi-12.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-12/ohashi-12.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-13",
+        "title": "村",
+        "author": {
+            "name": "H.T",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-13-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "様々な構造物を細かく作ることが出来ています。どんな場所なのかの説明されている所もあり、一つ一つがおしゃれに出来ていますね。もう少し仕様書と向き合って、テーマを絞っていったり、NPCを登場させてセリフを加えていくと、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_HYybDsURzUY2"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-13/ohashi-13.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-13/ohashi-13.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-14",
+        "title": "ふしぎな所",
+        "author": {
+            "name": "もちねこ",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-14-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "元々の地形を活かして、レジャー施設のようなワールドが出来ていますね。NPCの案内人も所々に配置されていて、どんな場所なのか分かりやすかったです。プログラミングを使って、様々な仕掛け作りに挑戦していくと、もっと良い作品になると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_fm8F1RdPsaTy"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-14/ohashi-14.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-14/ohashi-14.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-15",
+        "title": "平和な町？",
+        "author": {
+            "name": "kurorio",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-15-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "プログラミングをうまく活用して、壮大な景色を完成させることが出来ていますね。花に埋もれたNPCを探すのも楽しかったです。扉の先の世界をもっと作りこんで、プログラミングで仕掛けを用意すると、もっとワクワクするワールドになりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_T4fC5fajYTJW"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-15/ohashi-15.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-15/ohashi-15.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-16",
+        "title": "すいぞくかん",
+        "author": {
+            "name": "KR",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-16-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "遊び心もある水族館が出来ていましたね。建物内を明るくするために、照明の配置を工夫できていますね。どのような場所なのか分かりやすくするために、NPCや看板を配置するともっと良い作品になりますよ！プログラミングももっと活用してみましょう。",
+        "program": {
+            "type": "makecode",
+            "id": "_cVAKqJ7Ww23p"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-16/ohashi-16.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-16/ohashi-16.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-17",
+        "title": "三人ゲーム",
+        "author": {
+            "name": "しんちゃん",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-17-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 2
+        },
+        "comment": "バリアブロックを使った独特な仕掛けが面白かったです。スタートからゴールまでの道がしっかりしつつも、他にも気になるルートや建築物を作っていましたね。プログラミングを使った仕掛けをもっと取り入れてみることと、プレイヤーがコース外に出てしまう部分が所々あったので、そこも見直していくともっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_i2rfDFCPkTPw"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-17/ohashi-17.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-17/ohashi-17.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-18",
+        "title": "めいろ",
+        "author": {
+            "name": "OI",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-18-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "大量のカエルが出迎えてくれたと思ったら、衝撃波が飛び交う恐ろしい遺跡でしたね。落とし穴のトラップや見えない床が面白い仕掛けでした。衝撃波が強すぎるので、モンスター数や配置を工夫することと、どんな遺跡なのかが分かるように装飾や説明を加えていくともっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_d2JT3jMop37L"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-18/ohashi-18.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-18/ohashi-18.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-19",
+        "title": "さくらのいえ",
+        "author": {
+            "name": "だんご",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-19-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "桜の景色がとても素敵なワールドですね。元々の地形をうまく活かして、良い眺めとなるように工夫されていますね。作業途中で終わっていたようですので、持ち物整理やゲームモードを修正し、この場所がどんな場所か説明を加えたり、プログラミングで見た目が変化する仕掛けを作ったりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_VJwfVgh5JEaJ"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-19/ohashi-19.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-19/ohashi-19.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-20",
+        "title": "廃病院",
+        "author": {
+            "name": "匿名",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-20-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "よく考えられた演出と仕掛けが印象的でした。プログラミングでほとんどの構造物を制御していることが素晴らしかったです。「プレイヤーが死んだ時」のプログラムは設定を即時リスポーンにすると有効になりますよ。プログラムで制御している部分を、最初は空気ブロックで置き換えておくとインパクトが大きくなって、より良い作品になると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_HP1fJbXT0fYR"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-20/ohashi-20.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-20/ohashi-20.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-21",
+        "title": "地球めつぼう",
+        "author": {
+            "name": "キン肉マン",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-21-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "プログラミングをうまく活用して効率的に巨大な構造物を完成させることが出来ていますね。シェルターも危機迫る感じを表現できていて良かったです。NPCをもっと置いて、どんな世界なのかを説明させたり、シェルターへの道の案内役を用意するともっと楽しめるワールドになると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_EDK1cWWDP6Wg"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-21/ohashi-21.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-21/ohashi-21.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-22",
+        "title": "アスレチックをクリアしよう。",
+        "author": {
+            "name": "MR",
+            "grade": "小3"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-22-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "シンプルなゲーム設計で、しっかりと難易度を分けられていたのがゲームとしてとても良かったです。ゲームオーバーになった時にスタート地点にちゃんと戻れるようプログラミングで制御できていましたね。ゴール判定をもう少し広くすることと、クリア時の演出や仕掛けをもっとプログラミングで用意してあげると、もっと面白い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_akoExU2Y6TWF"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-22/ohashi-22.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-22/ohashi-22.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "ohashi-23",
+        "title": "モブの逆襲ゲーム",
+        "author": {
+            "name": "変ったプレイヤー",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-23-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "独特の世界観で、仕掛けやストーリーが作り込まれていたことがとても面白かったです。強化されたモブを上手く凌ぎながらの探索や、最後のアトラクションは、やりごたえのあるものでした。クリエイティブのままになっていたのでゲームモードのコントロールと、仕様書のゲームの流れと実際の流れが変わってしまっているので、修正しながら作成を進めていくと、もっと良いものができると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_X4aes8YW7PFt"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-23/ohashi-23.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ohashi/ohashi-23/ohashi-23.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-1",
+        "title": "洋風の城",
+        "author": {
+            "name": "ソラ",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "立派なお城を作り上げることが出来ていますね！インパクトのある見せ方をするために工夫をしている所が良かったです。どのようなルートで進めばよいか、誘導できるようにNPCを配置して案内させたり、城について説明させたり、プログラミングでワープできるようにすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_hRf3HYbpf1Ej"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-1/roppon-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-1/roppon-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-2",
+        "title": "フツー？のアスレチック",
+        "author": {
+            "name": "1.2",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 5,
+            "programming": 5,
+            "fun": 5,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "コース自体はシンプルなのに、簡単にはクリアできないように良く練られているステージを作ることが出来ていますね！仕様書でしっかりと計画を立てることができたからこそのクオリティーでした。隠し要素も追加できており、楽しむことが出来ました。プログラムでコースが作られているので、何もない所からコースが出来上がっていく様子を見せるようにしたり、テレポート前のヒヤっと感を出すために床をマグマに変更したりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_c3J5UXMMhaHJ"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-2/roppon-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-2/roppon-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-1",
+        "title": "海の中にある神殿",
+        "author": {
+            "name": "いっそー",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 2,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "とても立派な海底神殿を作ることができていますね！いろいろなものが置かれていて、ひとつひとつの建物を楽しむことが出来ました。もっとNPCを増やして様々な登場人物を置いたり、プログラミングで仕掛けを作れるようになると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_47sRvaFq4Xr9"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-1/yakuin-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-1/yakuin-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-2",
+        "title": "ぼくの家のまわりの環境",
+        "author": {
+            "name": "TK",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "自分の住んでいる建物を忠実に再現できていますね！プログラミングを活用して、効率良く建物を完成させていくことができたようですね。エレベーターの仕組みが良く出来ています！時間が限られていたと思うので、実際の階数の半分にしたり、部屋の数を減らしてコンパクトにしたりすると、まわりの環境やNPCの作りこみに時間を割いて、完成度をより上げることができると思いますよ。",
+        "program": {
+            "type": "makecode",
+            "id": "_ALVXY7270Eko"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-2/yakuin-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-2/yakuin-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-3",
+        "title": "和風＆アスレチックワールド",
+        "author": {
+            "name": "ゴールドパース0815",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "怖さを感じさせる家と水上エレベーターの上に作られたアスレチックが良く出来ていましたね！所々に看板を置いているので、意味のある言葉で説明を加えたり、NPCを置いてセリフを考えたりして、どんな場所なのかが伝わるようになると、もっと良い作品になりますよ！プログラミングを使った仕掛け作りにも挑戦してみましょう。",
+        "program": {
+            "type": "makecode",
+            "id": "_T12eP02j235t"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-3/yakuin-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-3/yakuin-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-4",
+        "title": "ワクワクの町",
+        "author": {
+            "name": "太よう",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "このお家はどんなお家なんだろう？とワクワクさせられる町を作ろうと頑張っていましたね！限られた時間の中で完成させるのは難しかったと思います。プログラミングを活用して、効率良く道や家の基本部分を作っていくことができるようになれば、１つ１つのお家の中身の作りこみに時間を使えて、もっと良い作品にできると思いますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_RU7P86ggsT1t"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-4/yakuin-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-4/yakuin-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-5",
+        "title": "むかしのせかい",
+        "author": {
+            "name": "かざん！！",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "古代をイメージした建物がとても良く出来ていました！水槽もサケが食べられてしまわないように住み分けすることが出来ていましたね。火山を作るのが難しかったと思います。プログラミングを活用すれば、好きなタイミングで噴火をTNTの爆発で表現したり、その爆発でワールドが壊れないようにすることもできますよ！ぜひ、考えてみましょう！",
+        "program": {
+            "type": "makecode",
+            "id": "_YAufaweK9Az8"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-5/yakuin-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-5/yakuin-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-6",
+        "title": "いもていこく",
+        "author": {
+            "name": "UK",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 4,
+            "design": 5,
+            "worksheet": 4
+        },
+        "comment": "1つ1つの建物や構造物を丁寧に作ることが出来ていましたね！福岡タワーの完成度も高いですが、信号機の表現や銀行ならではのゆったりとしたイスの表現が素晴らしかったです。どの部分をプログラミングで作成したかを推測しかできなかったので、使用したプログラムを残しておいてもらえると、もっと評価が上がったと思います。NPCにもっと色々説明やセリフを入れると作品の雰囲気がより良く伝わりますよ。",
+        "program": {
+            "type": "makecode",
+            "id": "_JLv1JLX86LhW"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-6/yakuin-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-6/yakuin-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-7",
+        "title": "ひろいワールド",
+        "author": {
+            "name": "SH",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-7-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 0,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "いろいろなものが置いてある大きなお家を完成させることが出来ていますね！仕様書のとおりに計画的に作成を進めることができているところがすごいです。今度はプログラミングを使った建築やしかけ作りに挑戦してみましょう！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-7/yakuin-7.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-8",
+        "title": "あの世行きcastle❣️💔",
+        "author": {
+            "name": "NY",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-8-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "お話の設定がしっかりとされていて、ゴールまでのルートがよく考えられているお城（迷路？）を完成させることが出来ていましたね！普通に階段を上がっていくわけではない道順になっているところが面白かったです。メッセージの表示条件を座標エリアで指定したり、ゲームモードを何にするかを指定しておくと、より良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_DCsb2JX416oz"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-8/yakuin-8.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-8/yakuin-8.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-9",
+        "title": "プレイファンフリー",
+        "author": {
+            "name": "いろは",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-9-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "可愛らしい動物園と、自然豊かな露天風呂が出来ていましたね！分かれ道によって、時間帯を変えてみたり、特定の場所に行くと動物や噴水が出てくるようにしたりすると、近くても違った雰囲気を出すことができて、より良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_51qRLVTr9gjV"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-9/yakuin-9.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-9/yakuin-9.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-10",
+        "title": "イケア",
+        "author": {
+            "name": "山田けいと",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-10-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "お店の内装を細かいところまでしっかりと作ることができていますね。色々な所を見て回るのがとても楽しかったです。プログラミングを活用してエリア判定で明るくなるようにすると、天井部分や壁をより作りこむことが出来るようになると思います。NPCをたくさん配置するのも大変だったともいますが、セリフをたくさん考えることができれば、お店としての雰囲気ももっと出るようになりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_Wr62xRCtqbup"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-10/yakuin-10.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-10/yakuin-10.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-11",
+        "title": "鍾乳洞冒険",
+        "author": {
+            "name": "バナナ",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-11-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "鍾乳洞を楽しむための立派な施設をつくることが出来ていましたね！細かい部分まで作りこんでいて、看板を使って説明や案内をしているところがとても良かったです。NPCのスタッフのセリフを考えたり、プログラミングを活用した仕掛けを追加するともっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_gwj9chCFdJJ7"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-11/yakuin-11.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-11/yakuin-11.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "yakuin-12",
+        "title": "古代の日本",
+        "author": {
+            "name": "KK",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-12-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 4
+        },
+        "comment": "プログラミングを活用して、富士山を表現しようと試行錯誤したことがうかがえました。色々なものを作ってくれた中でも、地下に作られた不思議な空間が怖さを演出できていて良かったです。ワールドに入った人が、何をどのように見てまわれば良いのか分かるように、NPCを置いて案内や説明をさせたり、プログラミングで道順が示されるように仕掛けを作ったりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_bot37cAhoRc9"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-12/yakuin-12.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/yakuin/yakuin-12/yakuin-12.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "kashi-1",
+        "title": "奈多漁港",
+        "author": {
+            "name": "カワハギ",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "実際にある漁港をイメージしたワールドを作ることができました！たくさん船を置くことで、漁港の様子をあらわす工夫ができています。あとはたくさんNPCも出してしゃべらせることでにぎわっている様子を表現しましょう！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-1/kashi-1.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kashi-2",
+        "title": "名桜通り",
+        "author": {
+            "name": "Densyahakase",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "駅とその周り、電車を再現したワールドを作ることができました！駅前通りから電車まで、細かく再現することができています。あとは実際に電車を利用している客をNPCなどで表現するともっとリアルになりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-2/kashi-2.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kashi-3",
+        "title": "ディズニー",
+        "author": {
+            "name": "ゆず",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "ディズニーのお城をイメージしたワールドを作ることができました！カラフルな見た目で、きれいな建物を作ることができています。あとは、このお城のどんなところを工夫したか、どんな順番で見てほしいかをNPCに説明させましょう！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-3/kashi-3.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kashi-4",
+        "title": "しんちゃん",
+        "author": {
+            "name": "せせひとみ",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "2階建ての大きな建物を作ることができました！階段で上の階と行き来できるようにし、部屋を作ることができています。あとは、それぞれの部屋がどんな役割で使われるのか分かるようにしたり、実際にそこで暮らしている人を置いたりすると、よりリアルになりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-4/kashi-4.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kashi-5",
+        "title": "おはなし",
+        "author": {
+            "name": "あかる～",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "神秘的な雰囲気の建物を作ることができました！家については、バルコニーやインテリアまでこだわって作ることができています。せっかくなので、そこで暮らしている人々をNPCを使って表現できるともっとよさそうです！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-5/kashi-5.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kashi-6",
+        "title": "神社",
+        "author": {
+            "name": "東",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "Minecraftの中に、神社を再現することができました！鳥居や手水舎、鈴やお賽銭箱など、細かいところまで作ることができています。また、プログラミングで周りの壁などを並べることができました。あとは、参拝している方をNPCなどで表現できるともっとよくなりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_XLrgPc9WTJLd"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-6/kashi-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/kashi/kashi-6/kashi-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "utsukushi-1",
+        "title": "ミニチュアワールド",
+        "author": {
+            "name": "K.M",
+            "grade": "小6"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/utsukushi-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "",
+        "program": {
+            "type": "makecode",
+            "id": "_VaD0WjH6oAmc"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/utsukushi/utsukushi-1/utsukushi-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/utsukushi/utsukushi-1/utsukushi-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "utsukushi-2",
+        "title": "ハラハラめいろ",
+        "author": {
+            "name": "としはる",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/utsukushi-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 5,
+            "programming": 5,
+            "fun": 5,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "プログラミングで全てのコースを制御できているところが素晴らしかったです！仕様書でじっくり考えて、仕掛けや仕組みを試行錯誤しながら完成させていったことがうかがえます。相対座標でステージ作成をしているので、準備が完了するまでプレイヤーが動かないようにしたり、あえて何もないワールドを最初に見せるようにしたりすると、完成度やインパクトが更に上がりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_09TMt07XohH3"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/utsukushi/utsukushi-2/utsukushi-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/utsukushi/utsukushi-2/utsukushi-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "utsukushi-3",
+        "title": "むかしの学校",
+        "author": {
+            "name": "あらき",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/utsukushi-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/utsukushi/utsukushi-3/utsukushi-3.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "ozasa-1",
+        "title": "みらいの村",
+        "author": {
+            "name": "たく",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ozasa-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 4
+        },
+        "comment": "自分で考えた仕様書に従って、特色のある建築物を完成させることが出来ましたね！NPCや看板を使って、どのようなワールドや設定なのかを説明してくれていたところも良かったです。次は、未来の村にふさわしいギミックやプログラミングを使った仕掛け作りに挑戦してみましょう！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ozasa/ozasa-1/ozasa-1.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "ozasa-2",
+        "title": "しずんだ水中都市",
+        "author": {
+            "name": "ゲーム大好き",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ozasa-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "水の中にさらに海を作るという発想が素晴らしかったです！細かいところにも工夫を加えて、様々な施設を作ることが出来ていますね。海であることが他のプレイヤーに良く伝わるように、砂ブロックや珊瑚をベースに作っていくと、もっと良い作品になりますよ！プログラミングを活用した仕掛け作りやNPCをもっと増やしてワールドの雰囲気を出していくことにも挑戦してみましょう。",
+        "program": {
+            "type": "makecode",
+            "id": "_789514dWgHhH"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/ozasa/ozasa-2/ozasa-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/ozasa/ozasa-2/ozasa-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "muromi-1",
+        "title": "森林",
+        "author": {
+            "name": "Y.K",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 1,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "ダイナミックな海が表現できていますね。周囲にいるカラフルな羊もたくさんいて驚きました！プログラミングで地形のベースを作ろうとしていたことがうかがえますね。座標をうまく使いこなせるようになると、効率良くワールド作成を進めていけるようになるので、ぜひ練習を重ねていきましょう。海の中や周りが殺風景なので、プログラミングで色々な生き物をスポーンさせたり、草木を生やしたりするともっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_XF85r96r1Drc"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-1/muromi-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-1/muromi-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "muromi-2",
+        "title": "アスレチックの城",
+        "author": {
+            "name": "188644147V",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "常人には突破できない難攻不落の城が出来ていましたね！敵を討伐していかないと先へ進む道が完成しない仕組みは素晴らしかったです。マグマの壁からの狙撃は攻略まで大苦戦でした。難易度が極端なので、テストプレイをしてゲームバランスを考えることと、プレイヤーの最初の所持品やチェストの中身を調整すること、水の部屋のはしごのプログラムが次へ進む道を壊してしまっているので、その見直しをしていくと、ゲーム部門の観点でももっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-2/muromi-2.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "muromi-3",
+        "title": "バックルーム",
+        "author": {
+            "name": "かわづけいご",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "一体何があるんだろうと不安にさせるような演出が素晴らしかったです。防護服や明るさがチカチカする仕組み作りが良く出来ていたと思います。プログラミングを使って基本構造を完成させようと試行錯誤していたことがうかがえますね。目的地がどこなのか、プレイヤーに何を体験してほしいのかや発見してほしいのかを看板やNPCに説明させていくともっと良い作品ができますよ。最後にテストプレイをしてみましょう。",
+        "program": {
+            "type": "makecode",
+            "id": "_JsgWpw9aW9fc"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-3/muromi-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-3/muromi-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "muromi-4",
+        "title": "海にしずんだ神の村",
+        "author": {
+            "name": "えいちゃん",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "仕様書でしっかりと計画を立ててワールド作成を進めていくことが出来たようですね！どのような場所だったのかが伝わるように、良く工夫されていますね。プログラムで作成した討伐ゲームの仕組みもばっちりでした！おまけ要素かもしれませんが、クリア後のテレポート先が野放し状態なので、NPCに先程の場所との関連性を説明させたり、プログラミングを活用して沈んだ村に仕掛けを追加したりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_Ys34rJVUM10R"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-4/muromi-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-4/muromi-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "muromi-5",
+        "title": "Haruto World",
+        "author": {
+            "name": "Haruto",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 2
+        },
+        "comment": "立派な拠点を作ることが出来ていますね！ギミックを使った扉の開閉システムが面白かったです。こだわりのビューポイントも用意されていて、見映えを意識して建築を進めていたことがうかがえます。それぞれの場所がどんな場所かをNPCに説明させたり、ネザーの方でも何か作成してプログラミングを活用して仕掛けを用意したりすると、より良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_KLHKrRchwhm3"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-5/muromi-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-5/muromi-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "muromi-6",
+        "title": "やまちゃんワールド",
+        "author": {
+            "name": "Y.S",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 0
+        },
+        "comment": "丁寧なルール説明がとても良かったです！プレイヤーがワールドに入った時に何をすれば良いか分かるように環境が整えられていました。クリア後のテレポート先が指定されていないようですので、その修正と、ＮＰＣや看板を使ってなぜプレイヤーがその場所にいるのかというストーリー設定ができると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_hsvXcUEywMu0"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-6/muromi-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/muromi/muromi-6/muromi-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "minami-1",
+        "title": "ゾンビバトルゲーム",
+        "author": {
+            "name": "D.M",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/minami-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "ゾンビと戦いながら脱出するゲームを作ることができました！プログラミングで、モンスターを出現させる仕組みや、倒したときに脱出させてアイテムを渡す仕組みなどを作ることができています。また、Minecraftのルールを使ってなぞ解きをする仕組みも工夫ができています！あとは、ゲームに入ったプレイヤーが何を目指せばよいのか、説明を少し入れてあげると迷わずにゲームを開始することができそうです。",
+        "program": {
+            "type": "makecode",
+            "id": "_epd4c6CJbD0z"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/minami/minami-1/minami-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/minami/minami-1/minami-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-1",
+        "title": "モンスターの城",
+        "author": {
+            "name": "S.F",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "いろいろなアイテムやブロックを使って、こわさを表現することが出来ていますね！モンスターとの戦いの仕組みをプログラミングで作ろうと頑張っていましたね。作った関数を呼び出していなかったので、その修正と、ある場所に行くとモンスターが出てくるようにしたり、NPCにどのようなところかを説明させたりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_LdkFMRD5xJ56"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-1/maebaru-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-1/maebaru-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-2",
+        "title": "立ち入り禁止のめいろ",
+        "author": {
+            "name": "藤田田田",
+            "grade": "小3"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 2
+        },
+        "comment": "長い道のりの迷路やアスレチックを作ることが出来ていますね！地上に上がっては地下に潜りをしながら、ゴールに向かっていくところが面白かったです。ゲームオーバーになった時に、もう一度チャレンジする仕組みや、迷路を進むと地形が変化する仕掛けをプログラミングで作れるようになると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_4sW1Wx4yWVf4"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-2/maebaru-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-2/maebaru-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-3",
+        "title": "バトルゲーム",
+        "author": {
+            "name": "K.S",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "次々とモンスターとバトルをしていく仕組みをプログラミングで作り上げようと頑張っていましたね！戦いやすいバトルステージも良く出来ています。同じ構造の建築物をコピーできるプログラムがあるので、それを活用して仕様書通りのステージを作成し、ゲームスタートの時とモンスターを倒した時に次のステージにモンスターが出てくるようにプログラミングできれば、バトルゲームとして完成できたと思います。限られた時間の中でよく頑張りました。",
+        "program": {
+            "type": "makecode",
+            "id": "_FspdqRRrKH10"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-3/maebaru-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-3/maebaru-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-4",
+        "title": "アスレ",
+        "author": {
+            "name": "R.U",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "プログラミングを使って基礎構造を作ることが出来ていますね！隠しチェストがどこにあるのかについて、ヒントが用意されている所が良かったです。プログラム上ではゲームスタートのコードはできていたのですが、座標が間違っていたため、スタートと同時に地面に埋められてしまいます！座標を確認し、仕様書の通りにコースを作成して、タイマー機能を追加すれば、もっと良い作品になりますよ！限られた時間の中でよく頑張りました。",
+        "program": {
+            "type": "makecode",
+            "id": "_13j3VX7hm1xJ"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-4/maebaru-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-4/maebaru-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-5",
+        "title": "だれにとってもワクワクがぞくぞく",
+        "author": {
+            "name": "おちょうしもの",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "たくさんのNPCがそれぞれいろんなことを話していて面白かったです。突然の水バケツ着地チャレンジが始まってビックリしました。チャレンジが始まるエリアがどこなのか分かるようにすることと、プログラミングを活用してお城の中に様々な仕掛けを作ると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_6W6LcEVm4Rp5"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-5/maebaru-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-5/maebaru-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-6",
+        "title": "海底城",
+        "author": {
+            "name": "馬",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "川を海まで繋げていたところが良く出来ていました！水の流れを上手に表現できていますね。海中にあるお城も、いろいろな生き物を飼っていて生活感が伝わりました。NPCや看板を配置して、それぞれがどんな場所か説明を加えたり、何をしているかセリフを作ったりすると、ワールドの様子がより良く伝わりますよ。プログラミングを活用して、城の入り口までの道が出現したり、テレポートしたりできるようにすると、もっと面白い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_aYK83gJxbi1C"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-6/maebaru-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-6/maebaru-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-7",
+        "title": "マリオ？アスレチック！",
+        "author": {
+            "name": "キャベツ",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-7-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "さまざまな仕掛けを考えて、楽しいアスレチックを作ることが出来ていましたね！所々にアドバイスが用意されていて、マイクラに詳しくない人でも挑戦できるように考えられていますね。プログラミングを活用した仕掛けも取り入れていくと、もっと面白いコースになりますよ！コースの外壁をもっと高くしてコースだけが見えるようにしたり、壁面のデザインを考えてみたりすると、より完成度が上がりそうです。よく頑張りました！",
+        "program": {
+            "type": "makecode",
+            "id": "_iqfh5TfcVdiU"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-7/maebaru-7.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-7/maebaru-7.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "maebaru-8",
+        "title": "未来の城",
+        "author": {
+            "name": "とらとら",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-8-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 5
+        },
+        "comment": "キレイに整えられた街並みや城がとても美しかったです！ちょっとした隠し要素もあって探索を楽しむことができました。NPCに未来の設定について、もっとセリフを追加してあげたり、プログラミングでテレポートや構造物変化を発生させたりすると、より未来感が出て良い作品になりますよ！建築物をプログラムで作成したと思うのですが、どんなプログラムを作ったのか痕跡を残しておいてもらえると評価がもっと上がったと思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_MPh4R7KpVU9e"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-8/maebaru-8.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/maebaru/maebaru-8/maebaru-8.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-1",
+        "title": "ごうか",
+        "author": {
+            "name": "すごい人",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "大きな建物を作ることができました！プログラミングでブロックを並べることもできています。あとは、よりごうかな感じが伝わるようにシャンデリアやごうかなつくえ、いすなどを作って置けるとテーマがもっと伝わりそうです。",
+        "program": {
+            "type": "makecode",
+            "id": "_T9EVwiRFfMgu"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-1/nishijin-1.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-1/nishijin-1.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-2",
+        "title": "さくらとたてもの",
+        "author": {
+            "name": "なお",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "桜と和風の建物をイメージしたワールドを作ることができました！瓦らしい見た目の屋根や、木を基調にした統一感ある見た目にすることができています。あとは、ここがどのようなワールドか説明をNPCにさせれば完璧です！",
+        "program": {
+            "type": "makecode",
+            "id": "_4evYMgfdjfhq"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-2/nishijin-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-2/nishijin-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-3",
+        "title": "いろいろなたて物",
+        "author": {
+            "name": "まち",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "現代風の道路や建物を作ることができました！プログラミングで必要なブロックを出して建築することができています。また、信号機や道路をMinecraft内でどのように表すか、工夫して製作することができました。あとは、スタートからゴールまでの道筋をしっかり決められるともっとよくなりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_4yg3s7Aam6CP"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-3/nishijin-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-3/nishijin-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-4",
+        "title": "こわいやかた",
+        "author": {
+            "name": "R.F",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "館や、その周りの建物を作ることができました。トロッコを使って移動する道を作るなどの工夫ができています。あとは、どんな順番で回れば良いかわかりやすくしたり、注目してほしい場所をわかりやすくできたりするともっとよくなりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_buFRXH1iEVwV"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-4/nishijin-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-4/nishijin-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-5",
+        "title": "ホラーワールド",
+        "author": {
+            "name": "S.M",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 4,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "真っ暗な中にモンスターがたくさんいる、少し怖い世界を作ることができました！プログラミングで、建物の壁や天井を作ることができています。あとは、どうして恐ろしい世界なのか、どんな順番で回れば良いかなどをNPCに説明させられると、プレイヤーが回りやすくなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_iLtVh43c8h9a"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-5/nishijin-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-5/nishijin-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-6",
+        "title": "しぜんがゆたかなむら",
+        "author": {
+            "name": "かの",
+            "grade": "小3"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 4,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "ビルのような高い建物を作ることができました！プログラミングで部屋をコピーしていくつも上に重ね、大きな建物にすることができています。あとは、どんなワールドなのか、どんな順番で楽しめばよいか、NPCを使ってしっかり説明させましょう！",
+        "program": {
+            "type": "makecode",
+            "id": "_JwcCKuhsPA0c"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-6/nishijin-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-6/nishijin-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-7",
+        "title": "ワクワクみんなのふしぎな島！",
+        "author": {
+            "name": "まな",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-7-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 5,
+            "worksheet": 4
+        },
+        "comment": "渡されたアイテムを使ってテレポートしながら回る町を作ることができました！ワールド内の様々な場所に移動しながら建物を見ることができる仕組みが面白いです。また、遠くからでも目立ついろいろな生き物の像を作ることができました。",
+        "program": {
+            "type": "makecode",
+            "id": "_gpjLRRDr4Vp9"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-7/nishijin-7.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-7/nishijin-7.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-8",
+        "title": "水中町",
+        "author": {
+            "name": "O.A",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-8-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 4,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "水の中にある町をコンセプトに、建物を作ることができました！一本道ではなく、一度外に出て回らないと進めない場所があるなど、形に工夫がされているところが良かったです。あとは、プログラミングをもっと使って、秘密の通路や部屋といった要素が作れると、よりオリジナルな建物になりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_U2oWMyK0LcwC"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-8/nishijin-8.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-8/nishijin-8.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-9",
+        "title": "楽しい世界",
+        "author": {
+            "name": "Imura",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-9-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "たくさんのNPCを設置することで、どんな世界かわかりやすいワールドを作ることができました！NPCが不死のトーテムを渡す→それをチェストに入れると扉を開けるようになる、という仕組みも工夫できています。あとは、注目してほしい場所をよりわかりやすくできるともっとよくなりそうです！",
+        "program": {
+            "type": "makecode",
+            "id": "_ipMTJu8w2AxW"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-9/nishijin-9.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-9/nishijin-9.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-10",
+        "title": "春夏秋冬",
+        "author": {
+            "name": "チョコマカロン",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-10-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 5,
+            "worksheet": 4
+        },
+        "comment": "ワールドを大きく4つに分けて、その中に春夏秋冬それぞれを表現するというアイデアがとても良いと感じました！プログラミングで必要なブロックを出したり、大まかな仕切りを出すことができています。また、スイカをイメージしたオブジェなど、季節感をしっかり出すことができました。あとは、NPCにどんな世界か説明してもらったり、実際にそのワールドを楽しんでいるNPCなどを置くことができるともっと楽しくなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_XcY3FaVYcekH"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-10/nishijin-10.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-10/nishijin-10.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-11",
+        "title": "学校ワールド",
+        "author": {
+            "name": "T.K",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-11-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "大きな学校と、たくさんの生徒（村人）を出すことができました。学校だとより分かるように、普段通っている学校の教室や理科室などをイメージした部屋を作れるともっと良くなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_DP1gP9apieDh"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-11/nishijin-11.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-11/nishijin-11.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-12",
+        "title": "スイッチ",
+        "author": {
+            "name": "Y.C",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-12-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 3,
+            "design": 5,
+            "worksheet": 3
+        },
+        "comment": "NINTENDO SWITCHをイメージしたインパクトのあるステージを作ることができました！内部はアスレチックになっていて、水に落ちるとセリフとともに元の位置に戻る仕組みをプログラミングで作ることができています。あとは、スタートの仕組みやゴールの仕組みなどが入っていれば完璧です！",
+        "program": {
+            "type": "makecode",
+            "id": "_VH5JwyDpD1C8"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-12/nishijin-12.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-12/nishijin-12.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-13",
+        "title": "ワクワク遊園地",
+        "author": {
+            "name": "あ",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-13-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 3,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "遊園地を作ることができました！ジェットコースターや観覧車など、しっかり再現することができています。また、プログラミングを使って遊園地の周りの壁や、中の建物の壁を作ることができました。あとはNPCなどに、どんなところを見てほしいか、どんな順番でまわれば良いか説明させるともっとわかりやすくなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_b191ba3jw8gz"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-13/nishijin-13.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-13/nishijin-13.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-14",
+        "title": "森の洋かんからのだっしゅつ",
+        "author": {
+            "name": "ダック",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-14-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "洋館から脱出するゲームを作ることができました！プログラミングをつかってアイテムを渡したりテレポートしたりする仕組みを作ることができています。また、最速クリアタイムを表示できる仕組みが、何度もプレイしたいという気持ちになってとっても良いと感じました！あとは、どこに乗ればゲームが始まるのか、クリアするのかといった要素を、目立つブロックにするなど「何かありそう！」という見た目にできるとプレイヤーがスムーズにゲームに参加できると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_RaX3e38e2ert"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-14/nishijin-14.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-14/nishijin-14.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-17",
+        "title": "どんな町かな？ワクワク楽しいまち",
+        "author": {
+            "name": "めい",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-17-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 4,
+            "programming": 3,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "ギミックが隠れた建物のあるワールドを作ることができました！NPCに世界の説明をしてもらうことで、どんなプログラムを使えばよいかわかるように工夫されていました。また、範囲に入ると出現する秘密の花壇などもプログラミングを使って表現することができています。",
+        "program": {
+            "type": "makecode",
+            "id": "_5wtb0M0WHHrx"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-17/nishijin-17.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-17/nishijin-17.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-18",
+        "title": "自ぜんゆたかな森",
+        "author": {
+            "name": "クリーパー",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-18-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 4,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "まず遠くから見たときのインパクトがすごいですね！自動ドアの仕組みやモンスターと戦う仕組みについてもしっかりプログラミングで作り上げることができています。後は建物の見た目や、世界観の説明にもう少しこだわれば来る人がもっと楽しめるワールドになると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_Wj6FwoD7d6hz"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-18/nishijin-18.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-18/nishijin-18.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-19",
+        "title": "アスレゲーム",
+        "author": {
+            "name": "setera",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-19-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 5,
+            "worksheet": 3
+        },
+        "comment": "アスレチックゲームの中でプログラミングをうまく使って、消える足場などの面白い仕組みを作ることができました！また、NPCに話しかける→次のステージへ進む道が開く、という流れもきれいに作ることができています。あとは、タイムの計測など、何度も挑戦したい！と思える仕組みを入れられれば完璧です！",
+        "program": {
+            "type": "makecode",
+            "id": "_VdbFK96g4Woa"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-19/nishijin-19.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-19/nishijin-19.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-20",
+        "title": "自然の川",
+        "author": {
+            "name": "ZEN",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-20-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 4,
+            "worksheet": 3
+        },
+        "comment": "滝～川を中心にした、日本のお祭りをイメージしたワールドを作ることができています！瓦をイメージした和風の建築や、出店の様子などをブロックをうまく使って再現することができました。あとは、ブロックを並べたりコピーしたりした時に使ったと思われるプログラミングについてもぜひ残してアピールしたいところでした。",
+        "program": {
+            "type": "makecode",
+            "id": "_J3yJaCaA712g"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-20/nishijin-20.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-20/nishijin-20.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-21",
+        "title": "PVPでたたかおう",
+        "author": {
+            "name": "K.N",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-21-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "部屋から出たときにモンスターと戦うゲームを作ることができました！テレポートやアイテムの付与など、これまでにやってきたプログラミングを使うことができています。より良いプログラムにするために、チャットコマンドの名前や内容を整理できると、もっと細かい動きも作ることができるようになると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_3b1RoFh1HihJ"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-21/nishijin-21.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-21/nishijin-21.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-22",
+        "title": "モンスターファイト",
+        "author": {
+            "name": "F.G",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-22-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 4,
+            "programming": 5,
+            "fun": 5,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "モンスターと戦うシンプルなゲームながら、プログラムの完成度が非常に高かったです！たくさんデバッグをしたことが伝わりました。また、ルールの説明もNPCが細かくしてくれるようになっていてよかったです！後は、「どうしてバトルすることになったのか」「プレイヤー＝主人公の目的は何か」といったストーリーで、ありきたりなバトルゲームとのちがいを見せられるともっと良くなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_JX3aEiRWw6dv"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-22/nishijin-22.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-22/nishijin-22.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-23",
+        "title": "バトルアスレチック",
+        "author": {
+            "name": "Y.H",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-23-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 5,
+            "worksheet": 4
+        },
+        "comment": "アスレチックとバトルを組み合わせたゲームを作ることができました！チャットを使って、次に何をすればよいか表示してくれるのも、どのようにゲームを進めればよいかわかりやすかったです。あとは、例えば「謎の迷宮にとじこめられたから脱出しよう！」のようなストーリーがあると完璧です！",
+        "program": {
+            "type": "makecode",
+            "id": "_huPF897W3H4f"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-23/nishijin-23.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-23/nishijin-23.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-24",
+        "title": "マイワールド",
+        "author": {
+            "name": "M.H",
+            "grade": "小6"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-24-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 5,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 3
+        },
+        "comment": "プログラミングの完成度がとても高かったです！ある範囲に入ったらどうなる、だけでなく、時間が経つと元に戻る仕組みも入っていて、何度もくり返しちょうせんしよう！という気持ちになりました。あとは、ゲームとしての完成度を上げるために、なぜクリアを目指すのかを示したストーリー（とじこめられたから脱出しよう！お宝をとりにいこう！など）があればもっとゲームへの没入感が高くなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_1Fickx3wuMMw"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-24/nishijin-24.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-24/nishijin-24.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "nishijin-25",
+        "title": "廃旅館から脱出せよ！",
+        "author": {
+            "name": "T.H",
+            "grade": "中2"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-25-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 4,
+            "fun": 5,
+            "design": 4,
+            "worksheet": 4
+        },
+        "comment": "ゲーム内にあるアイテムを探索して集め、脱出を目指すというコンセプトが良くできていました！本などを読むことで何をすれば良いかが分かり、そのヒントをもとに探索することで更に次のマップへ進むことができる、という流れは実際のゲームのようでとてもワクワクしました。あとはクリアした後にもう一度プレイしたいときにどうすれば良いか、くりかえしプレイするための仕組みまであればもっと完成度が高くなると思います。",
+        "program": {
+            "type": "makecode",
+            "id": "_bb5E00KJf58Y"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-25/nishijin-25.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/nishijin/nishijin-25/nishijin-25.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-3",
+        "title": "勇気の試練",
+        "author": {
+            "name": "S.K",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "ゾンビから逃げていくところや、ウォーデンを倒した後のセリフに、次は何が待っているんだろうとワクワクさせられました！仕様書と大分設計が変わっているようなので、計画を良く立てて作っていくともっと良い作品になったと思います。プレイヤーはどのモードで遊んで欲しいのか、どの道順で進んでいけば良いのかが分かるようにプログラミングで制御してみましょう。",
+        "program": {
+            "type": "makecode",
+            "id": "_62pdf6HL1P3f"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-3/roppon-3.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-3/roppon-3.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-4",
+        "title": "建築ワールド",
+        "author": {
+            "name": "N.S",
+            "grade": "小5"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-4-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 2,
+            "programming": 2,
+            "fun": 1,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "プログラミングで町を再現しようと試行錯誤を頑張った跡がうかがえますね！道路、横断歩道、歩道のどれもよく出来ています。限られた時間の中であれもこれも作るのは難しいので、作りたいものを絞ってからプログラミングで作る部分と手で作っていく部分を使い分けていくと効率良く進められますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_0s2YF1ERrYLC"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-4/roppon-4.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-4/roppon-4.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-5",
+        "title": "大都会のワールド",
+        "author": {
+            "name": "Y.N",
+            "grade": "小4"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-5-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 3,
+            "programming": 1,
+            "fun": 3,
+            "design": 3,
+            "worksheet": 4
+        },
+        "comment": "様々なギミックや仕掛けを取り入れつつ、それぞれの階層にテーマを持たせたビルを完成させることが出来ていましたね！隠し要素もあって、ビル内の探索やその後の冒険を楽しむことができました。プレイヤーがどのモードで遊んだら良いのかや、特定のエリアやブロック上に立つと仕掛けが発動するなど、プログラミングをもっと活用していくとより良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_A2eckPU3L4xT"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-5/roppon-5.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-5/roppon-5.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-6",
+        "title": "ポケモンの家",
+        "author": {
+            "name": "H.N",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-6-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 4,
+            "completeness": 4,
+            "programming": 2,
+            "fun": 2,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "仕様書で考えた通りにキャラクターを再現することが出来ていましたね！とても過酷な環境に作られていたのでビックリしました。プログラミングを使って、特定の場所に行くと全体を見渡せる場所にワープするような仕掛けを作ったり、NPCにどんなキャラクターなのかを説明させたりすると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_2hLJztM4seCu"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-6/roppon-6.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-6/roppon-6.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "roppon-7",
+        "title": "バトルゲーム",
+        "author": {
+            "name": "K.S",
+            "grade": "小4"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-7-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 2,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 4,
+            "design": 3,
+            "worksheet": 5
+        },
+        "comment": "仕様書で考えたゲームを完成させ、さらに2つのゲームを追加で作成することが出来ていましたね！プレイヤーに必要なアイテムを与えて、クリアできるように調整できています。クリアしたときに何かが起こる仕掛けや、クリアする度に難易度を上げたり、クリアまでの時間を表示したりをプログラミングで追加できると、もっと良い作品になりますよ！",
+        "program": {
+            "type": "makecode",
+            "id": "_W9RAu570L62x"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-7/roppon-7.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/roppon/roppon-7/roppon-7.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "kasugabaru-1",
+        "title": "町",
+        "author": {
+            "name": "ハマチャン",
+            "grade": "小2"
+        },
+        "category": "world",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kasugabaru-1-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 0,
+            "fun": 2,
+            "design": 2,
+            "worksheet": 3
+        },
+        "comment": "",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kasugabaru/kasugabaru-1/kasugabaru-1.mcworld"
+            }
+        ]
+    },
+    {
+        "id": "kasugabaru-2",
+        "title": "チートマン",
+        "author": {
+            "name": "A.S",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kasugabaru-2-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 3,
+            "programming": 2,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 4
+        },
+        "comment": "",
+        "program": {
+            "type": "makecode",
+            "id": "_E9gUPgcfkb6U"
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kasugabaru/kasugabaru-2/kasugabaru-2.mcworld"
+            },
+            {
+                "type": "code",
+                "src": "https://vcode-esia.com/creative_awards/works/kasugabaru/kasugabaru-2/kasugabaru-2.mkcd"
+            }
+        ]
+    },
+    {
+        "id": "kasugabaru-3",
+        "title": "なぞの工場脱出！",
+        "author": {
+            "name": "りゅう",
+            "grade": "小5"
+        },
+        "category": "game",
+        "award": "none",
+        "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kasugabaru-3-thumbnail.webp",
+        "images": [],
+        "description": "",
+        "ratings": {
+            "idea": 3,
+            "completeness": 2,
+            "programming": 1,
+            "fun": 3,
+            "design": 2,
+            "worksheet": 2
+        },
+        "comment": "",
+        "program": {
+            "type": "makecode",
+            "id": ""
+        },
+        "downloads": [
+            {
+                "type": "world",
+                "src": "https://vcode-esia.com/creative_awards/works/kasugabaru/kasugabaru-3/kasugabaru-3.mcworld"
             }
         ]
     }
