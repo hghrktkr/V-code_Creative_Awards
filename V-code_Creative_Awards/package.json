@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist -r https://github.com/hghrktkr/V-code_Creative_Awards.git"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass-embedded": "^1.99.0",
     "scss": "^0.2.4",
     "typescript": "~6.0.2",
