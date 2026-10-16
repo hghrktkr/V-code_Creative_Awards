@@ -312,6 +312,187 @@
                 color: #999;
                 font-size: 0.9rem;
             }
+
+            
+/* 件数・表示切り替え */
+.works-count-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.works-count {
+  margin: 0;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #f5f7fa;
+}
+
+.view-toggle-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #465064;
+  cursor: pointer;
+  font: inherit;
+  white-space: nowrap;
+}
+
+.view-toggle-button.is-active {
+  background: #fff;
+  color: #2449a5;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 12%);
+}
+
+/* リスト表示 */
+#works-list.works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.work-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 1px solid #e1e5ec;
+  border-radius: 10px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.work-row .work-item-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+}
+
+.work-row .work-item-meta {
+  color: #687386;
+  font-size: 0.9rem;
+}
+
+.work-row .work-item-side {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* カード表示 */
+#works-list.works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.work-card {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid #e1e5ec;
+  border-radius: 12px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.work-card:hover,
+.work-row:hover {
+  box-shadow: 0 5px 18px rgb(25 45 85 / 10%);
+}
+
+.work-card:hover {
+  transform: translateY(-3px);
+}
+
+.work-card-thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f0f2f6;
+}
+
+.work-card-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-card-info {
+  padding: 16px;
+}
+
+.work-card-title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.work-card-meta {
+  margin: 0 0 14px;
+  color: #687386;
+  font-size: 0.9rem;
+}
+
+.work-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  #works-list.works-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .works-count-row {
+    align-items: flex-start;
+  }
+
+  #works-list.works-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .work-row {
+    flex-wrap: wrap;
+    padding: 14px;
+  }
+
+  .work-row .work-item-title {
+    flex-basis: 100%;
+  }
+
+  .work-row .work-item-side {
+    margin-left: auto;
+  }
+
+  .view-toggle-button {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+}
+
         }
     }
 }

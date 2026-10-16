@@ -6,55 +6,71 @@ import { initModal } from "./modal";
 
 export type Work = {
   id: string;
-
   title: string;
-
   author: {
     name: string;
     grade: string;
   };
-
   category: string;
   award: string;
+  thumbnail: string;
 };
 
-/* --------------------------
-   状態
---------------------------- */
+type ViewMode = "list" | "grid";
 
 let works: Work[] = [];
 let filteredWorks: Work[] = [];
+let viewMode: ViewMode = "list";
 
 /* --------------------------
    初期化
 --------------------------- */
 
 export async function renderWorksPage() {
-
   const list = document.getElementById("works-list");
-
   if (!list) return;
 
-  // JSON取得
   const res = await fetch("data/works.json");
-
   works = await res.json();
 
-  // 初期表示
   filteredWorks = [...works];
+  viewMode = "list";
 
   renderCount(filteredWorks.length);
-
   renderList(filteredWorks);
 
-  // 検索・ソート初期化
   initToolbar();
+  initViewToggle();
 
-  // モーダル
   initModal({
     works,
     containerSelector: "#works-list",
     itemSelector: ".work-item"
+  });
+}
+
+function initViewToggle() {
+  const buttons = document.querySelectorAll<HTMLButtonElement>(
+    ".view-toggle-button"
+  );
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const nextView = button.dataset.view as ViewMode;
+
+      if (nextView !== "list" && nextView !== "grid") return;
+
+      viewMode = nextView;
+
+      buttons.forEach(btn => {
+        const isActive = btn.dataset.view === viewMode;
+
+        btn.classList.toggle("is-active", isActive);
+        btn.setAttribute("aria-pressed", String(isActive));
+      });
+
+      renderList(filteredWorks);
+    });
   });
 }
 
@@ -230,19 +246,21 @@ function updateWorks() {
 --------------------------- */
 
 function renderList(works: Work[]) {
-
   const list = document.getElementById("works-list");
-
   if (!list) return;
 
   list.innerHTML = "";
 
+  list.classList.toggle("works-list", viewMode === "list");
+  list.classList.toggle("works-grid", viewMode === "grid");
+
   works.forEach(work => {
+    const item =
+      viewMode === "list"
+        ? createWorkRow(work)
+        : createWorkCard(work);
 
-    const row = createWorkRow(work);
-
-    list.appendChild(row);
-
+    list.appendChild(item);
   });
 }
 
@@ -251,40 +269,64 @@ function renderList(works: Work[]) {
 --------------------------- */
 
 function createWorkRow(work: Work): HTMLElement {
-
   const button = document.createElement("button");
 
-  button.className =
-    `works-list work-item award-${work.award}`;
-
+  button.type = "button";
+  button.className = `work-item work-row award-${work.award}`;
   button.dataset.id = work.id;
 
   button.innerHTML = `
-
-    <div class="work-item-title">
-      ${work.title}
-    </div>
+    <div class="work-item-title">${work.title}</div>
 
     <div class="work-item-meta">
-      ${work.author.grade}
-      /
-      ${work.author.name}
+      ${work.author.grade} / ${work.author.name}
     </div>
 
     <div class="work-item-side">
-
       <span class="work-category category-${work.category}">
         ${getCategoryLabel(work.category)}
       </span>
 
       ${renderAward(work.award)}
 
-      <span class="work-arrow">
-        ▶
-      </span>
+      <span class="work-arrow">▶</span>
+    </div>
+  `;
 
+  return button;
+}
+
+function createWorkCard(work: Work): HTMLElement {
+  const button = document.createElement("button");
+
+  button.type = "button";
+  button.className = `work-item work-card award-${work.award}`;
+  button.dataset.id = work.id;
+
+  button.innerHTML = `
+    <div class="work-card-thumbnail">
+      <img
+        src="${work.thumbnail}"
+        alt="${work.title}のサムネイル"
+        loading="lazy"
+      >
     </div>
 
+    <div class="work-card-info">
+      <h3 class="work-card-title">${work.title}</h3>
+
+      <p class="work-card-meta">
+        ${work.author.grade} / ${work.author.name}
+      </p>
+
+      <div class="work-card-footer">
+        <span class="work-category category-${work.category}">
+          ${getCategoryLabel(work.category)}
+        </span>
+
+        ${renderAward(work.award)}
+      </div>
+    </div>
   `;
 
   return button;

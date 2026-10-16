@@ -220,7 +220,16 @@ function renderOtherAwards() {
       work.category === currentCategory &&
       work.award !== "gold" &&
       work.award !== "none"
-    );
+    )
+    .sort((a, b) => {
+      const awardOrder: Record<string, number> = {
+        silver: 1,
+        bronze: 2,
+      }
+
+      return (awardOrder[a.award] ?? 99) -
+             (awardOrder[b.award] ?? 99);
+  });
 
   container.innerHTML = others.map(work => `
 
