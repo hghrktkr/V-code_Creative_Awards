@@ -187,7 +187,7 @@
             "grade": "中1"
         },
         "category": "game",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-6-thumbnail.webp",
         "images": [],
         "description": "",
@@ -799,7 +799,7 @@
             "grade": "小6"
         },
         "category": "game",
-        "award": "bronze",
+        "award": "none",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-23-thumbnail.webp",
         "images": [],
         "description": "",
@@ -1367,7 +1367,7 @@
             "grade": "小4"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kashi-2-thumbnail.webp",
         "images": [],
         "description": "",
@@ -1807,7 +1807,7 @@
             "grade": "小5"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/muromi-4-thumbnail.webp",
         "images": [],
         "description": "",
@@ -3175,7 +3175,7 @@
             "grade": "小2"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-6-thumbnail.webp",
         "images": [],
         "description": "",
@@ -4451,7 +4451,7 @@
             "grade": "小5"
         },
         "category": "game",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/gakken-17-thumbnail.webp",
         "images": [],
         "description": "",
