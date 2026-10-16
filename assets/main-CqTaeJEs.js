@@ -36,37 +36,51 @@
     </div>
 
     <span class="work-link">See More ›</span>
-  `,t}function l(e,t){let n=[...e];for(let e=n.length-1;e>0;e--){let t=Math.floor(Math.random()*(e+1));[n[e],n[t]]=[n[t],n[e]]}return n.slice(0,t)}var u=[],d=[];async function f(){document.getElementById(`works-list`)&&(u=await(await fetch(`data/works.json`)).json(),d=[...u],_(d.length),h(d),p(),t({works:u,containerSelector:`#works-list`,itemSelector:`.work-item`}))}function p(){let e=document.getElementById(`search-input`),t=document.getElementById(`category-filter`),n=document.getElementById(`award-filter`),r=document.getElementById(`sort-select`);e?.addEventListener(`input`,m),t?.addEventListener(`change`,m),n?.addEventListener(`change`,m),r?.addEventListener(`change`,m)}function m(){let e=document.getElementById(`search-input`).value.toLowerCase(),t=document.getElementById(`category-filter`).value,n=document.getElementById(`award-filter`).value,r=document.getElementById(`sort-select`).value,i=[...u];switch(e&&(i=i.filter(t=>t.title.toLowerCase().includes(e)||t.author.name.toLowerCase().includes(e))),t!==`all`&&(i=i.filter(e=>e.category===t)),n!==`all`&&(i=i.filter(e=>e.award===n)),r){case`title`:i.sort((e,t)=>e.title.localeCompare(t.title,`ja`));break;case`grade`:i.sort((e,t)=>e.author.grade.localeCompare(t.author.grade,`ja`));break;case`award`:let e={gold:0,silver:1,bronze:2,none:3};i.sort((t,n)=>e[t.award]-e[n.award]);break}d=i,_(d.length),h(d)}function h(e){let t=document.getElementById(`works-list`);t&&(t.innerHTML=``,e.forEach(e=>{let n=g(e);t.appendChild(n)}))}function g(e){let t=document.createElement(`button`);return t.className=`works-list work-item award-${e.award}`,t.dataset.id=e.id,t.innerHTML=`
-
-    <div class="work-item-title">
-      ${e.title}
-    </div>
+  `,t}function l(e,t){let n=[...e];for(let e=n.length-1;e>0;e--){let t=Math.floor(Math.random()*(e+1));[n[e],n[t]]=[n[t],n[e]]}return n.slice(0,t)}var u=[],d=[],f=`list`;async function p(){document.getElementById(`works-list`)&&(u=await(await fetch(`data/works.json`)).json(),d=[...u],f=`list`,b(d.length),_(d),h(),m(),t({works:u,containerSelector:`#works-list`,itemSelector:`.work-item`}))}function m(){let e=document.querySelectorAll(`.view-toggle-button`);e.forEach(t=>{t.addEventListener(`click`,()=>{let n=t.dataset.view;n!==`list`&&n!==`grid`||(f=n,e.forEach(e=>{let t=e.dataset.view===f;e.classList.toggle(`is-active`,t),e.setAttribute(`aria-pressed`,String(t))}),_(d))})})}function h(){let e=document.getElementById(`search-input`),t=document.getElementById(`category-filter`),n=document.getElementById(`award-filter`),r=document.getElementById(`sort-select`);e?.addEventListener(`input`,g),t?.addEventListener(`change`,g),n?.addEventListener(`change`,g),r?.addEventListener(`change`,g)}function g(){let e=document.getElementById(`search-input`).value.toLowerCase(),t=document.getElementById(`category-filter`).value,n=document.getElementById(`award-filter`).value,r=document.getElementById(`sort-select`).value,i=[...u];switch(e&&(i=i.filter(t=>t.title.toLowerCase().includes(e)||t.author.name.toLowerCase().includes(e))),t!==`all`&&(i=i.filter(e=>e.category===t)),n!==`all`&&(i=i.filter(e=>e.award===n)),r){case`title`:i.sort((e,t)=>e.title.localeCompare(t.title,`ja`));break;case`grade`:i.sort((e,t)=>e.author.grade.localeCompare(t.author.grade,`ja`));break;case`award`:let e={gold:0,silver:1,bronze:2,none:3};i.sort((t,n)=>e[t.award]-e[n.award]);break}d=i,b(d.length),_(d)}function _(e){let t=document.getElementById(`works-list`);t&&(t.innerHTML=``,t.classList.toggle(`works-list`,f===`list`),t.classList.toggle(`works-grid`,f===`grid`),e.forEach(e=>{let n=f===`list`?v(e):y(e);t.appendChild(n)}))}function v(e){let t=document.createElement(`button`);return t.type=`button`,t.className=`work-item work-row award-${e.award}`,t.dataset.id=e.id,t.innerHTML=`
+    <div class="work-item-title">${e.title}</div>
 
     <div class="work-item-meta">
-      ${e.author.grade}
-      /
-      ${e.author.name}
+      ${e.author.grade} / ${e.author.name}
     </div>
 
     <div class="work-item-side">
-
       <span class="work-category category-${e.category}">
-        ${v(e.category)}
+        ${x(e.category)}
       </span>
 
-      ${y(e.award)}
+      ${S(e.award)}
 
-      <span class="work-arrow">
-        ▶
-      </span>
-
+      <span class="work-arrow">▶</span>
+    </div>
+  `,t}function y(e){let t=document.createElement(`button`);return t.type=`button`,t.className=`work-item work-card award-${e.award}`,t.dataset.id=e.id,t.innerHTML=`
+    <div class="work-card-thumbnail">
+      <img
+        src="${e.thumbnail}"
+        alt="${e.title}のサムネイル"
+        loading="lazy"
+      >
     </div>
 
-  `,t}function _(e){let t=document.getElementById(`works-count`);t&&(t.textContent=`${e}件の作品`)}function v(e){switch(e){case`game`:return`ゲーム`;case`world`:return`ワールド`;default:return`その他`}}function y(e){let t={gold:`🥇`,silver:`🥈`,bronze:`🥉`}[e]??``;return`
+    <div class="work-card-info">
+      <h3 class="work-card-title">${e.title}</h3>
+
+      <p class="work-card-meta">
+        ${e.author.grade} / ${e.author.name}
+      </p>
+
+      <div class="work-card-footer">
+        <span class="work-category category-${e.category}">
+          ${x(e.category)}
+        </span>
+
+        ${S(e.award)}
+      </div>
+    </div>
+  `,t}function b(e){let t=document.getElementById(`works-count`);t&&(t.textContent=`${e}件の作品`)}function x(e){switch(e){case`game`:return`ゲーム`;case`world`:return`ワールド`;default:return`その他`}}function S(e){let t={gold:`🥇`,silver:`🥈`,bronze:`🥉`}[e]??``;return`
     <span class="work-award ${e===`none`?`empty`:``}">
       ${t}
     </span>
-  `}async function b(){let e=document.getElementById(`detail-container`);if(!e)return;let t=new URLSearchParams(location.search).get(`id`),n=(await(await fetch(`data/works.json`)).json()).find(e=>e.id===t);n&&(e.innerHTML=x(n),S(),E())}function x(e){return`
+  `}async function C(){let e=document.getElementById(`detail-container`);if(!e)return;let t=new URLSearchParams(location.search).get(`id`),n=(await(await fetch(`data/works.json`)).json()).find(e=>e.id===t);n&&(e.innerHTML=w(n),T(),k())}function w(e){return`
     <section class="detail-header-nav">
       <button class="back-button" id="back-button">
         ← 戻る
@@ -104,17 +118,17 @@
     </div>
 
     <!-- 画像 -->
-    ${C(e.images)}
+    ${E(e.images)}
 
     <!-- プログラム -->
-    ${w(e.program)}
+    ${D(e.program)}
 
     <!-- 共有 -->
-    ${T(e)}
+    ${O(e)}
 
     <!-- ダウンロード -->
-    ${O(e.downloads)}
-  `}function S(){document.getElementById(`back-button`)?.addEventListener(`click`,()=>{history.back()})}function C(e){return e.length===0?``:`
+    ${j(e.downloads)}
+  `}function T(){document.getElementById(`back-button`)?.addEventListener(`click`,()=>{history.back()})}function E(e){return e.length===0?``:`
       <section class="detail-image">
         <h2>ゲーム中の画像</h2>
 
@@ -124,7 +138,7 @@
             `).join(``)}
         </div>
       </section>
-    `}function w(e){return window.innerWidth<=756||e.type!==`makecode`?``:`
+    `}function D(e){return window.innerWidth<=756||e.type!==`makecode`?``:`
     <section class="detail-program">
       <h2>プログラム</h2>
 
@@ -136,7 +150,7 @@
         </iframe>
       </div>
     </section>
-  `}function T(e){let t=encodeURIComponent(location.href);return`
+  `}function O(e){let t=encodeURIComponent(location.href);return`
     <section class="detail-share">
       <h2>この作品をシェア</h2>
 
@@ -178,7 +192,7 @@
 
       </div>
     </section>
-  `}function E(){let e=document.getElementById(`copy-button`);e&&e.addEventListener(`click`,async()=>{let t=e.getAttribute(`data-url`);if(t)try{await navigator.clipboard.writeText(t),e.classList.add(`copied`),D(`URLをコピーしました！`),setTimeout(()=>{e.classList.remove(`copied`)},1200)}catch{D(`コピーに失敗しました`)}})}function D(e){let t=document.getElementById(`copy-button`);if(!t)return;let n=t.querySelector(`.copy-toast`);n&&(n.textContent=e,n.classList.add(`show`),setTimeout(()=>{n.classList.remove(`show`)},2e3))}function O(e){return e?`
+  `}function k(){let e=document.getElementById(`copy-button`);e&&e.addEventListener(`click`,async()=>{let t=e.getAttribute(`data-url`);if(t)try{await navigator.clipboard.writeText(t),e.classList.add(`copied`),A(`URLをコピーしました！`),setTimeout(()=>{e.classList.remove(`copied`)},1200)}catch{A(`コピーに失敗しました`)}})}function A(e){let t=document.getElementById(`copy-button`);if(!t)return;let n=t.querySelector(`.copy-toast`);n&&(n.textContent=e,n.classList.add(`show`),setTimeout(()=>{n.classList.remove(`show`)},2e3))}function j(e){return e?`
     <section class="detail-downloads">
       <h2>ダウンロード</h2>
 
@@ -190,7 +204,7 @@
         `).join(``)}
       </div>
     </section>
-  `:``}var k=`select`,A=[],j=``;async function M(){A=await(await fetch(`data/works.json`)).json(),N(),L(`select`)}function N(){document.querySelectorAll(`.category-button`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.getAttribute(`data-category`);t&&(j=t,F(t),I())})})}var P={game:`GAME CREATION`,world:`WORLD DESIGN`};function F(e){let t=document.getElementById(`intro-category`);t&&(t.textContent=P[e])}async function I(){L(`intro`),document.body.style.overflow=`hidden`,await V(2500),R(),L(`gold`),await V(2e3),z(),L(`all`),document.body.style.overflow=``}function L(e){k=e;let t=document.getElementById(`results-select`),n=document.getElementById(`results-intro`),r=document.getElementById(`results-stage`);if(!(!t||!n||!r))switch(t.classList.remove(`active`),n.classList.remove(`active`),r.classList.remove(`active`),k){case`select`:t.classList.add(`active`);break;case`intro`:n.classList.add(`active`);break;case`gold`:case`all`:r.classList.add(`active`);break}}function R(){let e=document.getElementById(`gold-stage`);if(!e)return;let t=A.find(e=>e.category===j&&e.award===`gold`);t&&(e.innerHTML=`
+  `:``}var M=`select`,N=[],P=``;async function F(){N=await(await fetch(`data/works.json`)).json(),I(),B(`select`)}function I(){document.querySelectorAll(`.category-button`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.getAttribute(`data-category`);t&&(P=t,R(t),z())})})}var L={game:`GAME CREATION`,world:`WORLD DESIGN`};function R(e){let t=document.getElementById(`intro-category`);t&&(t.textContent=L[e])}async function z(){B(`intro`),document.body.style.overflow=`hidden`,await W(2500),V(),B(`gold`),await W(2e3),H(),B(`all`),document.body.style.overflow=``}function B(e){M=e;let t=document.getElementById(`results-select`),n=document.getElementById(`results-intro`),r=document.getElementById(`results-stage`);if(!(!t||!n||!r))switch(t.classList.remove(`active`),n.classList.remove(`active`),r.classList.remove(`active`),M){case`select`:t.classList.add(`active`);break;case`intro`:n.classList.add(`active`);break;case`gold`:case`all`:r.classList.add(`active`);break}}function V(){let e=document.getElementById(`gold-stage`);if(!e)return;let t=N.find(e=>e.category===P&&e.award===`gold`);t&&(e.innerHTML=`
 
     <div class="gold-card">
 
@@ -225,12 +239,12 @@
 
     </div>
 
-  `)}function z(){let e=document.getElementById(`other-awards`);e&&(e.innerHTML=A.filter(e=>e.category===j&&e.award!==`gold`&&e.award!==`none`).sort((e,t)=>{let n={silver:1,bronze:2};return(n[e.award]??99)-(n[t.award]??99)}).map(e=>`
+  `)}function H(){let e=document.getElementById(`other-awards`);e&&(e.innerHTML=N.filter(e=>e.category===P&&e.award!==`gold`&&e.award!==`none`).sort((e,t)=>{let n={silver:1,bronze:2};return(n[e.award]??99)-(n[t.award]??99)}).map(e=>`
 
     <div class="award-card award-${e.award}">
 
       <div class="award-badge">
-        ${B(e.award)}
+        ${U(e.award)}
       </div>
 
       <img
@@ -260,4 +274,4 @@
 
     </div>
 
-  `).join(``))}function B(e){switch(e){case`silver`:return`🥈 SILVER AWARD`;case`bronze`:return`🥉 BRONZE AWARD`;default:return`🏅 AWARD`}}function V(e){return new Promise(t=>{setTimeout(t,e)})}var H=document.getElementById(`hamburger`),U=document.getElementById(`nav`);H&&U&&(H.addEventListener(`click`,()=>{H.classList.toggle(`open`),U.classList.toggle(`open`)}),document.querySelectorAll(`.nav a`).forEach(e=>{e.addEventListener(`click`,()=>{H.classList.remove(`open`),U.classList.remove(`open`)})}),document.addEventListener(`click`,e=>{!U.contains(e.target)&&!H.contains(e.target)&&(H.classList.remove(`open`),U.classList.remove(`open`))})),s(),f(),await M(),location.pathname.includes(`detail.html`)&&b();
+  `).join(``))}function U(e){switch(e){case`silver`:return`🥈 SILVER AWARD`;case`bronze`:return`🥉 BRONZE AWARD`;default:return`🏅 AWARD`}}function W(e){return new Promise(t=>{setTimeout(t,e)})}var G=document.getElementById(`hamburger`),K=document.getElementById(`nav`);G&&K&&(G.addEventListener(`click`,()=>{G.classList.toggle(`open`),K.classList.toggle(`open`)}),document.querySelectorAll(`.nav a`).forEach(e=>{e.addEventListener(`click`,()=>{G.classList.remove(`open`),K.classList.remove(`open`)})}),document.addEventListener(`click`,e=>{!K.contains(e.target)&&!G.contains(e.target)&&(G.classList.remove(`open`),K.classList.remove(`open`))})),s(),p(),await F(),location.pathname.includes(`detail.html`)&&C();
