@@ -225,7 +225,7 @@
 
     </div>
 
-  `)}function z(){let e=document.getElementById(`other-awards`);e&&(e.innerHTML=A.filter(e=>e.category===j&&e.award!==`gold`&&e.award!==`none`).map(e=>`
+  `)}function z(){let e=document.getElementById(`other-awards`);e&&(e.innerHTML=A.filter(e=>e.category===j&&e.award!==`gold`&&e.award!==`none`).sort((e,t)=>{let n={silver:1,bronze:2};return(n[e.award]??99)-(n[t.award]??99)}).map(e=>`
 
     <div class="award-card award-${e.award}">
 
