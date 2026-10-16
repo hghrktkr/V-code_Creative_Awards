@@ -83,9 +83,32 @@
 
 
     <!-- 件数 -->
-    <div class="works-count" id="works-count">
-      0件の作品
-    </div>
+    <!-- 件数・表示切り替え -->
+<div class="works-count-row">
+  <div class="works-count" id="works-count">
+    0件の作品
+  </div>
+
+  <div class="view-toggle" role="group" aria-label="表示形式">
+    <button
+      type="button"
+      class="view-toggle-button is-active"
+      data-view="list"
+      aria-pressed="true"
+    >
+      ☰ リスト
+    </button>
+
+    <button
+      type="button"
+      class="view-toggle-button"
+      data-view="grid"
+      aria-pressed="false"
+    >
+      ▦ カード
+    </button>
+  </div>
+</div>
 
 
     <!-- 一覧 -->
