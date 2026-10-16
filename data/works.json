@@ -691,7 +691,7 @@
             "grade": "小4"
         },
         "category": "world",
-        "award": "none",
+        "award": "silver",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-20-thumbnail.webp",
         "images": [],
         "description": "",
@@ -799,7 +799,7 @@
             "grade": "小6"
         },
         "category": "game",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ohashi-23-thumbnail.webp",
         "images": [],
         "description": "",
@@ -871,7 +871,7 @@
             "grade": "小5"
         },
         "category": "world",
-        "award": "none",
+        "award": "silver",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/roppon-2-thumbnail.webp",
         "images": [],
         "description": "",
@@ -1087,7 +1087,7 @@
             "grade": "小6"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/yakuin-6-thumbnail.webp",
         "images": [],
         "description": "",
@@ -1543,7 +1543,7 @@
             "design": 4,
             "worksheet": 5
         },
-        "comment": "",
+        "comment": "コンパクトなスペースに、",
         "program": {
             "type": "makecode",
             "id": "_VaD0WjH6oAmc"
@@ -1567,7 +1567,7 @@
             "grade": "小5"
         },
         "category": "game",
-        "award": "none",
+        "award": "silver",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/utsukushi-2-thumbnail.webp",
         "images": [],
         "description": "",
@@ -1667,7 +1667,7 @@
             "grade": "小3"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/ozasa-2-thumbnail.webp",
         "images": [],
         "description": "",
@@ -2203,7 +2203,7 @@
             "grade": "小5"
         },
         "category": "world",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/maebaru-8-thumbnail.webp",
         "images": [],
         "description": "",
@@ -2455,7 +2455,7 @@
             "grade": "小4"
         },
         "category": "world",
-        "award": "none",
+        "award": "gold",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-7-thumbnail.webp",
         "images": [],
         "description": "",
@@ -2923,7 +2923,7 @@
             "grade": "小5"
         },
         "category": "game",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/nishijin-22-thumbnail.webp",
         "images": [],
         "description": "",
@@ -3483,7 +3483,7 @@
             "grade": "小6"
         },
         "category": "game",
-        "award": "none",
+        "award": "bronze",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/kasugabaru-8-thumbnail.webp",
         "images": [],
         "description": "",
@@ -3843,7 +3843,7 @@
             "grade": "小4"
         },
         "category": "game",
-        "award": "none",
+        "award": "silver",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/mitoma-7-thumbnail.webp",
         "images": [],
         "description": "",
@@ -4019,7 +4019,7 @@
             "grade": "小6"
         },
         "category": "game",
-        "award": "none",
+        "award": "gold",
         "thumbnail": "https://vcode-esia.com/creative_awards/works/thumbnail/gakken-4-thumbnail.webp",
         "images": [],
         "description": "",
