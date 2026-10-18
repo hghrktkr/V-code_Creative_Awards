@@ -6,7 +6,7 @@ console.log("vite config loaded");
 
 export default defineConfig({
 
-  base: "/V-code_Creative_Awards/",
+  base: "/",
 
   build: {
 
