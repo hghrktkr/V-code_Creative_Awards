@@ -30,7 +30,7 @@
         padding: 0 16px;
 
         .header-logo {
-            height: 100%;
+            height: 90%;
         }
     }
 
@@ -41,6 +41,8 @@
         font-weight: bold;
 
         &:hover {
+            position: absolute;
+            right: 2%;
             opacity: 0.6;
         }
     }
